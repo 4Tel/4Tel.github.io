@@ -9,11 +9,11 @@ const codeTheme = {
 /** Blog Information. */
 const meta: Config = {
   // git
-  organizationName: '4tel',
-  projectName: '4tel.github.io',
+  organizationName: '4Tel',
+  projectName: '4Tel.github.io',
   deploymentBranch: 'main',
   // site
-  url: 'https://4tel.github.io',
+  url: 'https://4Tel.github.io',
   baseUrl: '/',
   trailingSlash: false,
   // home
@@ -78,7 +78,7 @@ const theme = {
 } satisfies Preset.ThemeConfig
 
 const doc_settings = {
-  editUrl: 'https://github.com/4tel/4tel.github.io/edit/main/'
+  editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/'
 }
 
 const config: Config = {
