@@ -25,12 +25,13 @@ const meta: Config = {
     locales: ['kr'],
   },
 }
+
 /** blog theme */
 const theme = {
   image: 'img/favicon.ico',
   colorMode: {
     defaultMode: 'dark',
-    disableSwitch: true,
+    disableSwitch: false,
   },
   docs: {
     sidebar: {
@@ -38,13 +39,6 @@ const theme = {
       autoCollapseCategories: true,
     }
   },
-  // announcementBar: { 
-  //   id: 'test',
-  //   backgroundColor: '#fafbfc',
-  //   content:'test announcement',
-  //   textColor: '#091E42',
-  //   isCloseable: true,
-  // },
   navbar: {
     title: '4Tel',
     logo: {
@@ -95,6 +89,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
           ...doc_settings,
         },
         blog: {
