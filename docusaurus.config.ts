@@ -6,6 +6,7 @@ const codeTheme = {
   darkTheme: themes.dracula,
 }
 
+/** Blog Information. */
 const meta: Config = {
   // git
   organizationName: '4tel',
@@ -24,6 +25,67 @@ const meta: Config = {
     locales: ['kr'],
   },
 }
+/** blog theme */
+const theme = {
+  image: 'img/favicon.ico',
+  colorMode: {
+    defaultMode: 'dark',
+    disableSwitch: true,
+  },
+  docs: {
+    sidebar: {
+      hideable: true,
+      autoCollapseCategories: true,
+    }
+  },
+  // announcementBar: { 
+  //   id: 'test',
+  //   backgroundColor: '#fafbfc',
+  //   content:'test announcement',
+  //   textColor: '#091E42',
+  //   isCloseable: true,
+  // },
+  navbar: {
+    title: '4Tel',
+    logo: {
+      src: 'img/favicon.ico',
+    },
+    hideOnScroll: false,
+    items: [ {
+        type: 'doc',
+        docId: 'home/home',
+        label: 'Home',
+        position: 'left',
+      }, {
+        type: 'doc',
+        docId: 'study/study',
+        position: 'left',
+        label: 'Study',
+      }, {
+        type: 'doc',
+        docId: 'tuto/tuto',
+        position: 'left',
+        label: 'Tutorial',
+      }, {
+        type: 'doc',
+        docId: 'book/book',
+        position: 'left',
+        label: 'Book',
+      },
+    ],
+  },
+  footer: {
+    style: 'dark',
+    copyright: `Copyright © ${new Date().getFullYear()}. Made by 4Tel.`,
+  },
+  prism: {
+    ...codeTheme
+  },
+} satisfies Preset.ThemeConfig
+
+const doc_settings = {
+  editUrl: 'https://github.com/4tel/4tel.github.io/edit/main/'
+}
 
 const config: Config = {
   ...meta,
@@ -33,7 +95,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:'https://github.com/4tel/4tel.github.io/edit/main/',
+          ...doc_settings,
         },
         blog: {
           showReadingTime: true,
@@ -41,7 +103,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:'https://github.com/4tel/4tel.github.io/edit/main/',
+          ...doc_settings,
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -52,36 +114,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
-  themeConfig: {
-    image: 'img/favicon.ico',
-    navbar: {
-      title: '4Tel',
-      logo: {
-        alt: '4Tel',
-        src: 'img/favicon.ico',
-      },
-      items: [ {
-          type: 'doc',
-          docId: 'home/intro',
-          position: 'left',
-          label: 'Home',
-        }, {
-          type: 'doc',
-          docId: 'tuto/home',
-          position: 'left',
-          label: 'test',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()}. Made by 4Tel.`,
-    },
-    prism: {
-      ...codeTheme
-    },
-  } satisfies Preset.ThemeConfig,
+  themeConfig: theme,
 };
 
 export default config;
