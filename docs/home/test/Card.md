@@ -2,14 +2,14 @@
 <CardSection columns={3}>
   <Card
     title='test'
-    to="/home"
+    to="/"
     text='123sdfasdfdsafasdfasfsdafasdff'/>
   <Card
     title="test2"
-    to="/home"
+    to="/"
   />
   <Card
     title="test3"
-    to="/home"
+    to="/"
   />
 </CardSection>
