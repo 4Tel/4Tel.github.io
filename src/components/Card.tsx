@@ -12,7 +12,7 @@ interface CardProps {
   to: string;
 };
 
-export const CardSection: React.FC<SectionProps> = ({ children, columns, width }) => {
+export function CardSection({children, columns, width}:SectionProps): JSX.Element {
   return (
     <div className={`${styles.cardSection}`}>
       <div className={`${styles.sectionContent}`}
@@ -23,7 +23,7 @@ export const CardSection: React.FC<SectionProps> = ({ children, columns, width }
   );
 }
 
-export const ColumnSection: React.FC<SectionProps> = ({ children, columns=2 }) => {
+export function ColumnSection({ children, columns=2 }:SectionProps):JSX.Element  {
   return <CardSection columns={columns} width='minmax(0,1fr)'>{children}</CardSection>;
 };
 
@@ -31,7 +31,7 @@ export const WidthSection: React.FC<SectionProps> = ({ children, width='100px' }
   return <CardSection columns='auto-fill' width={width}>{children}</CardSection>
 };
 
-export const Card: React.FC<CardProps> = ({ title, text, to }) => {
+export function Card({ title, text, to }: CardProps): JSX.Element {
   return (
     <Link to={to} className={`${styles.card}`}>
       <div className={`${styles.content}`}>
