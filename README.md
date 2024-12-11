@@ -1,7 +1,9 @@
 # 4tel.github.io
 ## TODO
-* docusaurus.config.ts
-	* make home
-	* make study
-	* make Tutorial
-	* make Book
+* write home
+* write study
+* write Tutorial
+	* latex
+	* md
+	* p-lang
+* write Book

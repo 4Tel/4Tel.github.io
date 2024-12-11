@@ -1,5 +1,6 @@
 ---
 slug: /
+sidebar_position: 1
 ---
 # Home
 ## Made by 4Tel
