@@ -83,7 +83,7 @@ const doc_settings = {
 
 const config: Config = {
   ...meta,
-  presets: [
+    presets: [
     [
       'classic',
       {

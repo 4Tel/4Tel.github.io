@@ -1,4 +1,4 @@
-import React, { useState, ReactNode, PropsWithChildren, ReactElement } from 'react';
+import  React, { ReactNode } from 'react';
 import styles from './Card.module.css';
 import Link from '@docusaurus/Link';
 interface SectionProps {
@@ -12,7 +12,7 @@ interface CardProps {
   to: string;
 };
 
-export function CardSection({children, columns, width}:SectionProps): JSX.Element {
+export function CardSection({children, columns, width}:SectionProps): React.ReactElement {
   return (
     <div className={`${styles.cardSection}`}>
       <div className={`${styles.sectionContent}`}
@@ -23,7 +23,7 @@ export function CardSection({children, columns, width}:SectionProps): JSX.Elemen
   );
 }
 
-export function ColumnSection({ children, columns=2 }:SectionProps):JSX.Element  {
+export function ColumnSection({ children, columns=2 }:SectionProps):React.ReactElement  {
   return <CardSection columns={columns} width='minmax(0,1fr)'>{children}</CardSection>;
 };
 
@@ -31,7 +31,7 @@ export const WidthSection: React.FC<SectionProps> = ({ children, width='100px' }
   return <CardSection columns='auto-fill' width={width}>{children}</CardSection>
 };
 
-export function Card({ title, text, to }: CardProps): JSX.Element {
+export function Card({ title, text, to }: CardProps): React.ReactElement {
   return (
     <Link to={to} className={`${styles.card}`}>
       <div className={`${styles.content}`}>
