@@ -106,6 +106,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        googleAnalytics: {
+          trackingID: 'G-KJQBWD08DH',
+          anonymizeIP: true,
+        }
       } satisfies Preset.Options,
     ],
   ],
