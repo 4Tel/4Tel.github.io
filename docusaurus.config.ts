@@ -1,6 +1,9 @@
 import {themes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 const codeTheme = {
   theme: themes.github,
   darkTheme: themes.dracula,
@@ -44,7 +47,7 @@ const theme = {
     logo: {
       src: 'img/favicon.ico',
     },
-    hideOnScroll: false,
+    hideOnScroll: true,
     items: [ {
         type: 'doc',
         docId: 'home/home',
@@ -78,8 +81,16 @@ const theme = {
 } satisfies Preset.ThemeConfig
 
 const doc_settings = {
-  editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/'
+  editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/',
+  remarkPlugins: [remarkMath],
+  rehypePlugins: [rehypeKatex],
 }
+const latex_setting = [
+  {
+    href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+    type: 'text/css',
+  },
+]
 
 const config: Config = {
   ...meta,
@@ -114,6 +125,7 @@ const config: Config = {
     ],
   ],
   themeConfig: theme,
+  stylesheets: latex_setting,
 };
 
 export default config;
