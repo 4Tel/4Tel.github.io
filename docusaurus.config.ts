@@ -64,11 +64,6 @@ const theme = {
         docId: 'tuto/tuto',
         position: 'left',
         label: 'Tutorial',
-      }, {
-        type: 'doc',
-        docId: 'book/book',
-        position: 'left',
-        label: 'Book',
       },
     ],
   },
