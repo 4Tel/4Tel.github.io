@@ -11,20 +11,23 @@ sidebar_position: 1
 |$\normalsize a$|\normalsize|$\large a$|\large|$\Large a$|\Large|$\LARGE a$|\LARGE
 |$\huge a$|\huge|$\Huge a$|\Huge
 ### 꾸밈
-|||
-|:-:|:-|
-|밑줄|$\underline{\backslash\text{underline}}$
-### 일반 폰트
+|||||||||
+:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
+$\Large\.a$|\\\.<br/>\dot|$\Large\"a$|\\\"<br/>\ddot|$\Large\dddot a$|\dddot|$\Large\ddddot a$|\ddddot
+$\Large\r a$|\r<br/>\mathring|$\Large\'a$|\\\'<br/>\acute|$\Large\`a$|\\\`<br/>\grave|$\Large\H a$|\H
+|$\Large\=a$|\\\=<br/>\bar|$\Large\overline{ab}$|\overline|$\Large\vec a$|\vec|$\Large\overrightarrow{ab}$|\overrightarrow
+|$\Large\~a$|\\\~<br/>\tilde|$\Large\widetilde{ab}$|\widetilde|$\Large\v a$|\v<br/>\check|$\Large\u a$|\u<br/>\breve
+|$\Large\^a$|\\\^<br/>\hat|$\Large\widehat{ab}$|\widehat|$\Large\overgroup{ab}$|\overgroup|$\Large\underline{ab}$|\underline
+
+### 폰트
+* 볼드는 bf, 이탤릭은 it로도 사용할 수 있으나 권장되지 <Glossary id="bf&it"/>
+
 |||
 |:-:|:-|
 A|$\large{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large{01234567890}$
 \text\{A\}|$\large\text{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\text{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\text{01234567890}$
 이탤릭<br/>\textit\{A\}<br/>\mathit\{A\}|$\large\textit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textit{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textit{01234567890}$
 볼드<br/>\textbf\{A\}<br/>\mathbf\{A\}|$\large\textbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textbf{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textbf{01234567890}$
-* 볼드는 bf, 이탤릭은 it로도 사용할 수 있으나 권장되지 <Glossary id="bf&it"/>
-### 특수 폰트
-|||
-|:-:|:-|
 rm<br/>\mathrm\{A\}|$\large\mathrm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\mathrm{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\mathrm{01234567890}$
 sf<br/>\mathsf\{A\}|$\large\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\mathsf{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\mathsf{01234567890}$
 tt<br/>\mathtt\{A\}|$\large\mathtt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\mathtt{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\mathtt{01234567890}$

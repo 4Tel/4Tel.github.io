@@ -13,7 +13,7 @@ const topbars: SidebarsConfig = {
   homeBar: [auto('home'),],
   studyBar: ['study/study', 'study/book/book'],
   tutoBar: ['tuto/tuto'],
-  ZCRBar: [auto("ZCR")],
+  ZCRBar: [auto("SCR")],
   /* tutorialSidebar: [
     'hello',
     { type: 'category', label: 'Tutorial', items: ['tutorial-basics/create-a-document'],},

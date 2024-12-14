@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# ZC:R
-* <Glossary id="SC:R"/>를 위한 공간
+# <Glossary id="SC:R"/>
 ## 계획
 |진행 연도|완료|목표|
 |:-:|:-:|:-:

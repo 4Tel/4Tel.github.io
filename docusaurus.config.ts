@@ -66,9 +66,9 @@ const theme = {
         label: 'Tutorial',
       }, {
         type: 'doc',
-        docId: 'ZCR/ZCR',
+        docId: 'SCR/SCR',
         position: 'left',
-        label: 'ZC:R',
+        label: 'Starcraft',
       },
     ],
   },
