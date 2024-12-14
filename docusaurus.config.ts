@@ -64,6 +64,11 @@ const theme = {
         docId: 'tuto/tuto',
         position: 'left',
         label: 'Tutorial',
+      }, {
+        type: 'doc',
+        docId: 'ZCR/ZCR',
+        position: 'left',
+        label: 'ZC:R',
       },
     ],
   },

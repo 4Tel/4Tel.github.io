@@ -51,5 +51,9 @@
     "category":"OPIc",
     "id":"Description Strategy",
     "tip":"(IM-007)\n* 나와 연관된 주제가 아닌 경우\n1. 주제 언급\n2. 주체를 나로 하여 설명."
+  },{
+    "category": "ZC:R",
+    "id":"SC:R",
+    "tip":"Starcraft : Remaster"
   }
 ]
