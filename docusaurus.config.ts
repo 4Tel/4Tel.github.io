@@ -7,6 +7,7 @@ import rehypeKatex from 'rehype-katex';
 const codeTheme = {
   theme: themes.github,
   darkTheme: themes.dracula,
+  // additionalLangeuage: ['sh','bash','command','console','powershell']
 }
 
 /** Blog Information. */
@@ -83,7 +84,7 @@ const theme = {
 const doc_settings = {
   editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/',
   remarkPlugins: [remarkMath],
-  rehypePlugins: [rehypeKatex],
+  rehypePlugins: [[rehypeKatex,{strict:false}]],
 }
 const latex_setting = [
   {

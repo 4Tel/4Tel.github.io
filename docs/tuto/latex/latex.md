@@ -19,8 +19,8 @@ sidebar_position: 1
 |:-:|:-|
 A|$\large{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large{01234567890}$
 \text\{A\}|$\large\text{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\text{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\text{01234567890}$
-이탤릭<br/>\textit\{A\}|$\large\textit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textit{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textit{01234567890}$
-볼드<br/>\textbf\{A\}|$\large\textbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textbf{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textbf{01234567890}$
+이탤릭<br/>\textit\{A\}<br/>\mathit\{A\}|$\large\textit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textit{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textit{01234567890}$
+볼드<br/>\textbf\{A\}<br/>\mathbf\{A\}|$\large\textbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textbf{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textbf{01234567890}$
 * 볼드는 bf, 이탤릭은 it로도 사용할 수 있으나 권장되지 <Glossary id="bf&it"/>
 ### 특수 폰트
 |||
@@ -33,7 +33,6 @@ cal<br/>\mathcal\{A\}|$\large\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large
 frak<br/>\mathfrak\{A\}|$\large\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\mathfrak{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\mathfrak{01234567890}$
 scr<br/>\mathscr\{A\}|$\large\mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\mathscr{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\mathscr{01234567890}$
 more|볼드: \mathbf<br/>이탤릭:\mathit<br/>[see more1](https://tug.org/FontCatalogue/mathfonts.html) <br/> [see more2](https://mirror.navercorp.com/CTAN/macros/latex/contrib/mathalpha/doc/mathalpha-doc.pdf)
-$\mathbf{\alpha}$
 ## 그리스어
 ### 소문자
 |||||||||||
