@@ -27,7 +27,7 @@ export function ColumnSection({ children, columns=2 }:SectionProps):React.ReactE
   return <CardSection columns={columns} width='minmax(0,1fr)'>{children}</CardSection>;
 };
 
-export const WidthSection: React.FC<SectionProps> = ({ children, width='100px' }) => {
+export function WidthSection({ children, width='100px' }:SectionProps):React.ReactElement {
   return <CardSection columns='auto-fill' width={width}>{children}</CardSection>
 };
 
