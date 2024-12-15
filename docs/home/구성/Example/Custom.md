@@ -4,19 +4,19 @@
 <ColumnSection columns={3}>
   <Card
     title='test'
-    to="./Card"
+    to="./Custom"
     text='123sdfasdfdsafasdfasfsdafasdff'/>
   <Card
     title="test2"
-    to="./Card"
+    to="./Custom"
   />
   <Card
     title="test3"
-    to="./Card"
+    to="./Custom"
   />
   <Card
     title="test4"
-    to="./Card"
+    to="./Custom"
   />
 </ColumnSection>
 
@@ -24,19 +24,19 @@
 <WidthSection width='200px'>
   <Card
     title='test'
-    to="./Card"
+    to="./Custom"
     text='123sdfasdfdsafasdfasfsdafasdff'/>
   <Card
     title="test2"
-    to="./Card"
+    to="./Custom"
   />
   <Card
     title="test3"
-    to="./Card"
+    to="./Custom"
   />
   <Card
     title="test4"
-    to="./Card"
+    to="./Custom"
   />
 </WidthSection>
 
