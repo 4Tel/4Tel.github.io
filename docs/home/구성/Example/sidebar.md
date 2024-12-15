@@ -8,3 +8,5 @@ sidebar_class_name: blue
     * 사이드바 그룹 내에서 위치
 * sidebar_label
     * 사이드바에서 제목
+* sidebar_class_name
+    * ????

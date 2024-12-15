@@ -9,13 +9,15 @@ interface ItemType{
 };
 
 
-export function Glossary({id}:{id:string}): React.ReactElement {
+export function Glossary({id,text}:{id:string,text?:string}): React.ReactElement {
   const [isVisible, setIsVisible] = useState(false);
   const [isFix, setIsFix] = useState(false);
   const item = glossaryItems.find(item => item.id === id) as ItemType;
   if (!item) return null;
-  let text = item.id;
-  if (item.text != undefined) text = item.text;
+  if (text == undefined) {
+    if (item.text != undefined) text = item.text;
+    else text = item.id;
+  }
 
   return (
     <span
