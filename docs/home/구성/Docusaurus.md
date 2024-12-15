@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Docusaurus 기능
 * React 기반
 * 유지보수가 활발.

@@ -2,8 +2,10 @@
 ## TODO
 * write home
 * write study
+	* write Book
 * write Tutorial
 	* latex
 	* md
 	* p-lang
-* write Book
+* write SC:R
+* Glossary for headlines

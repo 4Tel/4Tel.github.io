@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: SC:R
 ---
 # <Glossary id="SC:R"/>
 ## 계획

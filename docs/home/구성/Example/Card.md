@@ -1,21 +1,21 @@
-# Card Test
+# Card Usage
 ## Column Fix
 <ColumnSection columns={3}>
   <Card
     title='test'
-    to="/"
+    to="./Card"
     text='123sdfasdfdsafasdfasfsdafasdff'/>
   <Card
     title="test2"
-    to="/"
+    to="./Card"
   />
   <Card
     title="test3"
-    to="/"
+    to="./Card"
   />
   <Card
     title="test4"
-    to="/"
+    to="./Card"
   />
 </ColumnSection>
 
@@ -23,18 +23,18 @@
 <WidthSection width='200px'>
   <Card
     title='test'
-    to="/"
+    to="./Card"
     text='123sdfasdfdsafasdfasfsdafasdff'/>
   <Card
     title="test2"
-    to="/"
+    to="./Card"
   />
   <Card
     title="test3"
-    to="/"
+    to="./Card"
   />
   <Card
     title="test4"
-    to="/"
+    to="./Card"
   />
 </WidthSection>

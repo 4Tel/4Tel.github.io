@@ -1,57 +1,56 @@
 [
   {
+    "category": "general",
+    "id":"SEO",
+    "tip":"검색 엔진 최적화\n(Search Engine Optimization)\n"
+  }, {
+    "category":"general",
+    "id":"ToC",
+    "tip":"목차 (Table of Content)"
+  }, {
     "category":"Test",
     "id": "docusaurus",
     "tip":"docu 설명"
-  },
-  {
+  }, {
     "category":"Test",
     "id": "markdown",
     "tip": "md \\n \n설명"
-  },
-  {
+  }, {
     "category":"Home",
     "id": "Analytics 연결 테스트 방법",
     "text": "연결 테스트 방법",
     "tip": "데이터 수집 및 수정 > 데이터 스트림 > (선택) > 태그 안내 > 직접 설치 > 테스트"
-  },
-  {
+  }, {
     "category":"md",
     "id":"bf&it",
     "text":"않음.",
     "tip":"bf와 it를 함께 사용할 수 없음."
-  },
-  {
+  }, {
     "category":"OPIc",
     "id":"single 답변",
     "text":"답변",
     "tip":"포괄적인 질문인 경우\n1. 다른 질문에 대해 언급.\n2. 이유 설명.\n3. 하나의 주제에 집중하여 답변."
-  },
-  {
+  }, {
     "category":"OPIc",
     "id":"Quick Comparison",
     "tip": "(IM-002)\n1. 다른 주제와의 비교 언급.\n2. 빠르게 원래 주제로 복귀."
-  },
-  {
+  }, {
     "category":"OPIc",
     "id":"Comparison Strategy",
     "tip": "(IM-003 / 008)\n1. 주제B 언급\n2. 주제A와 비교.\n3. 주제B 언급.\n4. 결론\n* 지나치게 다른 주제 언급X\n* 지나치게 자주 비교X"
-  },
-  {
+  }, {
     "category":"OPIc",
     "id":"Listening Strategy",
     "tip":"(IM-004)\nQ1. 질문 내용을 이해\nQ2. 대답 전략 생각.\n질문 이해 못한 경우 그냥 넘기기."
-  },
-  {
+  }, {
     "category":"OPIc",
     "id":"Description Filler",
     "tip":"(IM-006)\n1. 중심 내용 설명.\n2. 전체 내용 설명\n3. 중심 내용 설명"
-  },
-  {
+  }, {
     "category":"OPIc",
     "id":"Description Strategy",
     "tip":"(IM-007)\n* 나와 연관된 주제가 아닌 경우\n1. 주제 언급\n2. 주체를 나로 하여 설명."
-  },{
+  }, {
     "category": "ZC:R",
     "id":"SC:R",
     "tip":"Starcraft: Remaster"
