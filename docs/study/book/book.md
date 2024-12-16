@@ -26,15 +26,15 @@ sidebar_position: 2
 
 ## 컴공
 <WidthSection width="250px"> 
-    <Card title="이산수학" text=""/>
     <Card title="컴퓨터공학개론" text=""/>
+    <Card title="이산수학" text=""/>
     <Card title="자료구조" text=""/>
-    <Card title="데이터베이스" text=""/>
     <Card title="컴퓨터 구조" text=""/>
     <Card title="운영체제" text=""/>
     <Card title="시스템 프로그래밍" text=""/>
     <Card title="컴퓨터 네트워크" text=""/>
     <Card title="Linux 시스템" text=""/>
+    <Card title="데이터베이스" text=""/>
     <Card title="데이터 프로그래밍" text="Python을 이용한AI"/>
 </WidthSection>
 
