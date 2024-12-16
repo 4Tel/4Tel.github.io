@@ -3,15 +3,15 @@ sidebar_position: 2
 ---
 # Book
 ## 수학
-<WidthSection width="240px"> 
+<WidthSection width="250px"> 
     <Card title="대학수학" text=""/>
     <Card title="선형대수학" text=""/>
     <Card title="미분방정식" text=""/>
 </WidthSection>
 
 ## 물리
-* [See Also](https://m.blog.naver.com/PostList.naver?blogId=dngjs154)
-<WidthSection width="240px"> 
+* [See also](https://m.blog.naver.com/PostList.naver?blogId=dngjs154)
+<WidthSection width="250px"> 
     <Card title="일반물리학" text=""/>
     <Card title="일반역학" text=""/>
     <Card title="현대물리학" text=""/>
@@ -25,7 +25,7 @@ sidebar_position: 2
 </WidthSection>
 
 ## 컴공
-<WidthSection width="240px"> 
+<WidthSection width="250px"> 
     <Card title="이산수학" text=""/>
     <Card title="컴퓨터공학개론" text=""/>
     <Card title="자료구조" text=""/>
@@ -40,6 +40,6 @@ sidebar_position: 2
 
 
 ## 기타
-<WidthSection width="240px"> 
+<WidthSection width="250px"> 
     <Card title="영어" to="book/eng" text="영어 관련"/>
 </WidthSection>
