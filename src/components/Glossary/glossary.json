@@ -41,6 +41,14 @@
     "text":"않음.",
     "tip":"bf와 it를 함께 사용할 수 없음."
   }, {
+    "category":"physics",
+    "id":"상호 인덕턴스",
+    "tip":"다른 고리의 전류 변화에 의해 전류 유도"
+  }, {
+    "category":"physics",
+    "id":"자체 인덕턴스",
+    "tip":"자신의 전류 변화에 의해 전류 유도"
+  }, {
     "category":"OPIc",
     "id":"single 답변",
     "text":"답변",
