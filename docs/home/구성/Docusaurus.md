@@ -46,8 +46,8 @@ sidebar_position: 3
 생성|외부 링크 추가|sidebar.ts|type:link
 생성|내부 링크 추가|sidebar.ts|type:ref<br/>[참고](https://docusaurus.io/docs/sidebar/multiple-sidebars#sidebar-item-ref)
 생성|html추가|sidebar.ts|type:html
-생성|파일 이름 설정|Doc 파일|sidebar_label
-설정|이전/다음 페이지 설정|Doc 파일|pagination_prev<br/>pagination_next<br/>(비활성: null)
+게시글|파일 이름 설정|Doc 파일|sidebar_label
+게시글|이전/다음 페이지 설정|Doc 파일|pagination_prev<br/>pagination_next<br/>(비활성: null)
 * [버전 설정 및 관리](https://docusaurus.io/docs/versioning)
 #### [Blog](https://docusaurus.io/docs/blog)
 * <Glossary id="blog-main"/>.
@@ -55,14 +55,14 @@ sidebar_position: 3
 분류|기능|파일|설정
 :-:|:-:|:-:|:-:
 블로그|다중 블로그|docusaurus.config.ts|unique ID
-블로그|사이드바 종류|docusaurus.config.ts|blogSidebarTitle
-블로그|사이드바 포스트 개수|docusaurus.config.ts|blogSidebarCount
-블로그|페이지당 포스트 수|docusaurus.config.ts|postsPerPage<br/>(페이지X: ALL)
-포스트|리딩타임|docusaurus.ts|showReadingTime<br/>readingTime
-포스트|피드|docusaurus.ts|feedOptions
-포스트|내용 미리보기|Blog 파일|truncate
-포스트|작성일자|Blog 파일|date
-포스트|태그|Blog 파일|tag
+블로그|페이지당 글 수|docusaurus.config.ts|postsPerPage<br/>(페이지X: ALL)
+사이드바|종류|docusaurus.config.ts|blogSidebarTitle
+사이드바|글 개수|docusaurus.config.ts|blogSidebarCount
+게시글|리딩타임|docusaurus.ts|showReadingTime<br/>readingTime
+게시글|피드|docusaurus.ts|feedOptions
+게시글|내용 미리보기|Blog 파일|truncate
+게시글|작성일자|Blog 파일|date
+게시글|태그|Blog 파일|tag
 작성자|작성자|Blog 파일|authors<br/>[참고](https://docusaurus.io/docs/blog#global-authors)
 작성자|작성자 페이지|author.yml|page
 
