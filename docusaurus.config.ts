@@ -70,6 +70,10 @@ const theme = {
     defaultMode: 'dark',
     disableSwitch: false,
   }, prism: codeTheme,
+  announcementBar: {
+    content: "블로그 개설 중. 글 작성 진행 중.",
+    isCloseable:false
+  },
   docs: {
     sidebar: {
       hideable: true,
