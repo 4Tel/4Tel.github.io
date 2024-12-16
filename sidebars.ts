@@ -21,6 +21,7 @@ const topbars: SidebarsConfig = {
 };
 
 const studyBars:SidebarsConfig = {
+  electrodynamicsBar: [auto('study/book/electrodynamics')],
   engBar: [auto('study/book/eng')]
 };
 

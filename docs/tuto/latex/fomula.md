@@ -28,7 +28,7 @@ $\odot\oplus\otimes\circ\S\ddag\dag 1$
 |||||||||
 |:-:|:-|:-:|:-|:-:|:-|:-:|:-|
 $\Large$||$\Large$||$\Large$||$\Large$|
-$\forall\exists\perp\parallel\sim\simeq\cong\approx\because\therefore\ncong\nmid\nparallel\neg\propto\ne\nsim\in\owns\ni\Join\backsim\nmid\mid\subset\supset\subseteq\supseteq\geq\gg\leq\ll\gt\lt\ggg\lll\ngeq\nleq\gtrsim\lesssim |$
+$\forall\exists\perp\parallel\sim\simeq\cong\approx\because\therefore\ncong\nmid\nparallel\neg\propto\ne\nsim\in\owns\ni\Join\backsim\nmid\mid\subset\supset\subseteq\supseteq\geq\gg\leq\ll\gt\lt\ggg\lll\ngeq\nleq\gtrsim\lesssim$
 
 $\rightarrow\Rightarrow\leftarrow\Leftarrow\downarrow\Downarrow\uparrow\Uparrow\leadsto\updownarrow\Updownarrow\leftrightarrow\Leftrightarrow\hookrightarrow\hookleftarrow\longleftarrow\longrightarrow\longleftrightarrow\Longrightarrow\Longleftarrow\longmapsto\mapsto\nearrow\nwarrow\searrow\swarrow 1$
 

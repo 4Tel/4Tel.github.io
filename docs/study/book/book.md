@@ -10,6 +10,7 @@ sidebar_position: 2
 </WidthSection>
 
 ## 물리
+* [See Also](https://m.blog.naver.com/PostList.naver?blogId=dngjs154)
 <WidthSection width="240px"> 
     <Card title="일반물리학" text=""/>
     <Card title="일반역학" text=""/>
@@ -18,7 +19,7 @@ sidebar_position: 2
     <Card title="양자역학" text=""/>
     <Card title="고체물리학" text=""/>
     <Card title="열&통계 물리학" text=""/>
-    <Card title="전자기학" to="book/electrodynamics"/>
+    <Card title="전자기학" to="book/electrodynamics" text="그리피스 기초전자기학 4판"/>
     <Card title="전자물리학" text=""/>
     <Card title="광학" text=""/>
 </WidthSection>
