@@ -22,8 +22,9 @@ export function Glossary({id,text}:{id:string,text?:string}): React.ReactElement
   return (
     <span
       className={`${styles.term}`}
-      onMouseEnter={()=>setIsVisible(true)}
-      onMouseLeave={()=>setIsVisible(false)}
+      // mouse enter/leave is weird in mobile
+      onPointerEnter={()=>setIsVisible(true)}
+      onPointerLeave={()=>setIsVisible(false)}
       onClick={() => setIsFix(!isFix)} >
       {text}
       {(isVisible||isFix) && (
