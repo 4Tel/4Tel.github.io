@@ -7,8 +7,34 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const codeTheme = {
-  theme: themes.github,
-  darkTheme: themes.dracula,
+  /*
+  ● : color-background
+  ■ : operator coloring 
+  ☆: suggestion
+  ★: suggestion (strong)
+  */  
+  
+  // theme: themes.duotoneLight,         // ● blue
+  // theme: themes.github,               // blue
+  // theme: themes.gruvboxMaterialLight, // ● orange
+  // theme: themes.jettwaveLight,        // ● blue
+  // theme: themes.nightOwlLight,        // green + purple
+  theme: themes.oneLight,             // orange
+  // theme: themes.vsLight,              // brown + blue
+
+  // darkTheme: themes.dracula,             // ★ italic + pink + purple
+  // darkTheme: themes.duotoneDark          // ■ orange + purple
+  // darkTheme: themes.gruvboxMaterialDark  // ☆ orange
+  // darkTheme: themes.jettwaveDark         // blue
+  // darkTheme: themes.nightOwl             // ☆ ■ italic + green + blue
+  // darkTheme: themes.oceanicNext          // ★ ■ magenta
+  // darkTheme: themes.okaidia              // ★ ■ yellow + green + blue
+  darkTheme: themes.oneDark              // ★ ■ purple + green + blue
+  // darkTheme: themes.palenight            // ■ italic + red
+  // darkTheme: themes.shadesOfPurple       // ■ ● orange + blue
+  // darkTheme: themes.synthwave84          // ● red + orange
+  // darkTheme: themes.vsDark               // ☆ ■ yellow + blue
+  
   // additionalLangeuage: ['sh','bash','command','console','powershell']
 }
 

@@ -1,0 +1,26 @@
+import { Highlight } from '@site/src/components/Highlight/Highlight';
+
+# MDX
+## Component
+<Highlight back="#25c2a0">Docusaurus green</Highlight>
+```md
+import { Highlight } from '@site/src/components/Highlight/Highlight';
+<!-- contents -->
+<Highlight back="#25c2a0">Docusaurus green</Highlight>
+```
+* [See also. 1](https://docusaurus.io/docs/markdown-features/react#mdx-component-scope)
+* [See also. 2](https://docusaurus.io/docs/swizzling)
+* MDX in JS
+```js
+export default function LandingPage() {
+  return (
+    <div>
+      //highlight-start
+      <MDXContent>
+        <FeatureDisplay />
+      </MDXContent>
+      //highlight-end
+    </div>
+  );
+}
+```
