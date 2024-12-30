@@ -8,9 +8,13 @@ sidebar_label: SC:R
 |:-:|:-:|:-:
 2021|:heavy_check_mark:|SC:R 공부
 2022|:heavy_check_mark:|맵 제작 공부
-2023|:heavy_check_mark:|EUD 공부
-2025|:x:|BWAPI 공부
+2022|:heavy_check_mark:|EUD 공부
+2022|:heavy_check_mark:|orderID 연구
+2023|:heavy_check_mark:|내장WAV 분류
+2023|:heavy_check_mark:|GPTP 정리
+2024|:x:|(졸업 준비)
 2025|:x:|오프셋 문서화
+2025|:x:|BWAPI 공부
 2025 ~ 2026|:x:|맵제작 문서 정리
 2027 ~ 2028|:x:|EUD 입문서 작성
 2028 ~ 2029|:x:|EUD 입문서 보완

@@ -1,0 +1,21 @@
+.tabs-container {
+    border: solid;
+    background-color: var(--ifm-color-emphasis-300);
+    padding-bottom: 0.5em;
+}
+
+.tabs-container [role='tablist'] {
+    background-color: var(--ifm-color-emphasis-200);
+}
+
+/* .tabs-container [role='tab'] {
+} */
+
+.tabs-container [role='tab'][aria-selected='true'] {
+    color: #fff;
+    background-color: var(--ifm-tabs-color-active-border);
+}
+
+.tabs-container [role='tabpanel'] {
+    padding: 5px;
+}

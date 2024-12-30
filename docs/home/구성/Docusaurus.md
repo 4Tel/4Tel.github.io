@@ -20,6 +20,8 @@ sidebar_position: 3
 * 강조 텍스트
 * 탭 기능
 * 라이브 에디터
+* Markdown 기능 [예제](Example/md+html.md)
+* MD 추가 기능 [예제](<Example/Docusaurus MDX.md>)
 ### 페이지
 #### [독립 페이지](https://docusaurus.io/docs/creating-pages)
 * src/pages에 파일 작성
