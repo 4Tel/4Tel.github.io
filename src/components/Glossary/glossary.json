@@ -8,6 +8,21 @@
     "id":"ToC",
     "tip":"목차 (Table of Content)"
   }, {
+    "category":"general",
+    "id":"AST",
+    "text":"추상 구문 트리",
+    "tip":"Abstract Syntax Tree\n작성된 코드 구조를 트리 형태로 표현"
+  }, {
+    "category":"general",
+    "id":"MDAST",
+    "text":"마크다운 추상 구문 트리",
+    "tip":"MarkDown AST(MDAST)"
+  }, {
+    "category":"general",
+    "id":"HAST",
+    "text":"하이퍼텍스트 추상 구문 트리 ",
+    "tip":"Hypertext AST(HAST)"
+  }, {
     "category":"Test",
     "id": "docusaurus",
     "tip":"docu 설명"

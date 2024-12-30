@@ -1,4 +1,8 @@
+---
+---
 # Custom Usage
+* [MDXComponents 구성](https://github.com/4Tel/4Tel.github.io/blob/main/src/theme/MDXComponents.tsx)
+* [component 구성](https://github.com/4Tel/4Tel.github.io/tree/main/src/components)
 ## Card
 ### Column Fix
 <ColumnSection columns={3}>

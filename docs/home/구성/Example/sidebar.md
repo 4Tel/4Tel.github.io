@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 sidebar_label: Side Bar
-sidebar_class_name: blue
 ---
 # 사이드바 설정 예제
 * sidebar_position
@@ -9,4 +8,4 @@ sidebar_class_name: blue
 * sidebar_label
     * 사이드바에서 제목
 * sidebar_class_name
-    * ????
+    * CSS 적용할 Class명

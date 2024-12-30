@@ -7,5 +7,4 @@
 	* latex
 	* md
 	* p-lang
-* write SC:R
-* Glossary for headlines
+* write SCR

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Markdown & HTML
 ## 기울임 / 굵게
 *italic* **bold**
@@ -7,11 +11,13 @@
 ## 링크
 [text](./md+html)
 <img src="/img/favicon.ico" width="30"/>
+[Download-link](./styles.module.css)
 ```md
 [text](link)
-![img](URL)
-<img src="URL" width="{width}">
+<img src="URL" width="{width}" className="class for CSS">
+[Download-link](URL)
 ```
+* 테마에 따른 이미지 설정 [방법](https://docusaurus.io/docs/markdown-features/assets#themed-images)
 
 ## 인용구
 > Blockquote
@@ -31,17 +37,17 @@
 ---
 ```
 ## 코드 블록
-`Inline code`
+This is `Inline code block`
 ```
-code
+simple code block
 ```
 ````md
-`Inline code`
+This is `Inline code block`
 ```
-code
+simple code block
 ```
 ````
-* [See also](https://docusaurus.io/docs/markdown-features/code-blocks)
+* [Code block 적용하기](https://docusaurus.io/docs/markdown-features/code-blocks)
 ### 타이틀
 ```sh title="title"
 1
@@ -51,24 +57,15 @@ code
 1
 ```
 ````
-### 코드 강조
-```sh
-// highlight-next-line
+### 줄번호
+```sh showLineNumbers
 1
-2
-// highlight-start
-3
-// highlight-end
 ```
-```
-// highlight-next-line
+````
+```sh showLineNumbers
 1
-2
-// highlight-start
-3
-// highlight-end
 ```
-
+````
 ## 내용 접기
 <details>
     <summary>details</summary>

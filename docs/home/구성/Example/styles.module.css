@@ -1,0 +1,18 @@
+.tab {
+    --ifm-color-emphasis-200: var(--ifm-color-emphasis-500);
+}
+.tab [role='tab'] {
+    line-height: 10px;
+    margin-right: 30px;
+}
+
+.yellow {
+    color: yellow;
+}
+.yellow[aria-selected='true'] {
+    --ifm-tabs-color-active-border: blue;
+}
+
+.content {
+    background-color: var(--ifm-color-emphasis-100);
+}
