@@ -9,6 +9,8 @@ import rehypeKatex from 'rehype-katex';
 const codeTheme = {
   additionalLanguages: ['bash'], //,'csharp','fortran'],
   /*  
+  additionalLanguages: ['bash'], //,'csharp','fortran'],
+  /*  
   ● : color-background
   ■ : operator coloring 
   ☆: suggestion
