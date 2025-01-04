@@ -1,5 +1,9 @@
 [
   {
+    "category":"general",
+    "id":"Glossary",
+    "tip":"사전집"
+  }, {
     "category": "general",
     "id":"SEO",
     "tip":"검색 엔진 최적화\n(Search Engine Optimization)\n"

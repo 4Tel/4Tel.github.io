@@ -59,7 +59,7 @@ const meta: Config = {
   projectName: '4Tel.github.io',
   deploymentBranch: 'main',
   // site
-  url: 'https://4Tel.github.io',
+  url: 'https://4Tel.github.io/',
   baseUrl: '/',
   trailingSlash: false,
   // home

@@ -344,46 +344,53 @@ import rawAdmonition from '!!raw-loader!./_admonition.md'
 ## Plugin
 <Tabs>
   <TabItem value="기능">
+    * 코어 자체는 기능이 없으며 플러그인이 기능을 제공함.
     * 다양한 기능 추가 가능. (영상 링크, 소셜카드 등)
     * 기존 MDX 구문의 동작 변경.
     * 새로운 MDX 구문 생성.
-    * [Docusaurus 문서](https://docusaurus.io/docs/markdown-features/plugins)
+    * [Docusaurus 문서1](https://docusaurus.io/docs/markdown-features/plugins)
+    * [Docusaurus 문서2](https://docusaurus.io/docs/using-plugins)
   </TabItem>
   <TabItem value="종류">
     * <Glossary id="AST"/>
     * MDX 내장 플러그인
     * remark 플러그인
-        * <Glossary id="MDAST"/>
-        * Markdown의 AST를 생성.
-        * Markdown 구문을 HTML 구문으로 변환.
+      * <Glossary id="MDAST"/>
+      * Markdown의 AST를 생성.
+      * Markdown 구문을 HTML 구문으로 변환.
     * rehype 플러그인
-        * <Glossary id="HAST"/>
-        * HTML의 AST를 생성.
-        * HTML 구문에 JSX 적용 가능.
+      * <Glossary id="HAST"/>
+      * HTML의 AST를 생성.
+      * HTML 구문에 JSX 적용 가능.
+    * docusaurus 플러그인
+      * docusaurus 기능을 제공.
   </TabItem>
   <TabItem value="적용 예시">
     ```js title="docusaurus.config.ts"
     import rehypeKatex from 'rehype-katex';
 
     export default {
-      presets: [
-        [
-          '@docusaurus/preset-classic',
-          {
-            docs: {
-              rehypePlugins: [
-                [rehypeKatex, {strict: false}],
-              ],
-            },
-          },
-        ],
-      ],
+      presets: [[
+        '@docusaurus/preset-classic',
+        { docs: {
+            rehypePlugins: [[rehypeKatex, {strict: false}]],
+        }},
+      ]],/* plugins의 options로 특정 페이지 id만 적용 가능. */
+      plugins: [ 
+        ['@docusaurus/plugin-content-pages',{/* options */}]
+      ], /* plugins 적용 후 themes 적용됨. */
+      themes: [['@docusaurus/plugin-content-pages']],
     };
     ```
+  </TabItem>
+  <TabItem value="플러그인 목록">
+    * [공식](https://docusaurus.io/docs/api/plugins)
+    * [community](https://docusaurus.io/community/resources#community-plugins)
   </TabItem>
   <TabItem value="플러그인 제작">
     * [remark](https://github.com/remarkjs/remark/blob/main/doc/plugins.md#create-plugins)
     * [rehype](https://github.com/rehypejs/rehype/blob/main/doc/plugins.md#create-plugins)
+    * [제작 참고](https://docusaurus.io/docs/api/plugin-methods)
     * TODO: 예시 쓰기
   </TabItem>
 </Tabs>
@@ -418,9 +425,21 @@ import rawAdmonition from '!!raw-loader!./_admonition.md'
   </TabItem>
 </Tabs>
 
-## Swizzling
-* TODO
+
 
 ## 기타 기능
-* metadata: MDX에서 <head></head> 안에 작성 시 반영 됨.
-* CSS 스타일링: [참고](https://docusaurus.io/docs/styling-layout)
+* CSS 스타일링: [방법](https://docusaurus.io/docs/styling-layout)
+* Swizzling: [방법](https://docusaurus.io/docs/swizzling)
+  * 고급기능인 만큼 잘못 다뤘을 때 위험성이 크다.
+  * 가능한 경우 CSS나 다른 기능을 사용해 구현할 것.
+* 정적 에셋: [방법](https://docusaurus.io/docs/static-assets)
+* 브라우저 지원: [방법](https://docusaurus.io/docs/browser-support)
+  * 브라우저 종류 및 버전에 따라 JS 문법 일부가 적용되지 않을 수 있음.
+  * JS변환 시 지정된 브라우저 종류 및 버전에서 구동 가능하도록 변환 됨.
+* 검색 기능: [방법](https://docusaurus.io/docs/search)
+* <Glossary id="SEO">SEO</Glossary>
+  * [참고](https://docusaurus.io/docs/seo)
+  * 메타 데이터 설정을 통해 최적화.
+  * 전체 metadata: docusaurus.config.ts에 작성.
+  * 단일 metadata: MDX에서 <head></head> 안에 작성 시 반영 됨.
+  * robots.txt를 통해 검색 엔진 접근 설정.
