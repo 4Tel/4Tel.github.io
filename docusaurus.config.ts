@@ -5,7 +5,7 @@ import type {Navbar, NavbarItem} from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 //
-import {gtag, sitemap} from './plugin.config';
+import {gtagPlug, sitemapPlug} from './plugin.config';
 
 const codeTheme = {
   additionalLanguages: ['bash'], //,'csharp','fortran'],
@@ -165,7 +165,7 @@ const page1:PresetConfig = [
 const config: Config = {
   ...meta,
   presets: [page1],
-  plugins:[gtag,sitemap],
+  plugins:[gtagPlug,sitemapPlug],
   markdown: {
     mermaid:true,
   },

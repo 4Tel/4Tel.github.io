@@ -1,13 +1,13 @@
 import { PluginConfig } from "@docusaurus/types";
 
-export const gtag:PluginConfig = [
+export const gtagPlug:PluginConfig = [
   '@docusaurus/plugin-google-gtag',
   {
     trackingID: 'G-KJQBWD08DH',
   }
 ];
 
-export const sitemap:PluginConfig = [
+export const sitemapPlug:PluginConfig = [
   '@docusaurus/plugin-sitemap',
   {
     lastmod: 'date',
