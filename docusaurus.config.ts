@@ -1,10 +1,11 @@
 import {themes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import type {Navbar} from '@docusaurus/theme-common'
-// import type NavBar from '@docusaurus/theme-common/src/utils/useThemeConfig'
+import type {Config, PresetConfig, ThemeConfig} from '@docusaurus/types';
+import type {Navbar, NavbarItem} from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+//
+import {gtag, sitemap} from 'plugin.config';
 
 const codeTheme = {
   additionalLanguages: ['bash'], //,'csharp','fortran'],
@@ -69,7 +70,7 @@ const meta: Config = {
 }
 
 /* Top Navigation bar information */
-const navigation = {
+const navigation:Navbar = {
   title: '4Tel',
   logo: {
     src: 'img/favicon.ico',
@@ -97,10 +98,10 @@ const navigation = {
       label: 'Starcraft',
     },
   ],
-} satisfies Navbar;
+};
 
 /** theme setting */
-const theme = {
+const theme:ThemeConfig = {
   image: 'img/favicon.ico', // tab
   colorMode: {
     defaultMode: 'dark',
@@ -121,7 +122,7 @@ const theme = {
     style: 'dark',
     copyright: `Copyright © ${new Date().getFullYear()}. Made by 4Tel.`,
   },
-} satisfies Preset.ThemeConfig
+};
 
 const doc_settings = {
   editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/',
@@ -136,7 +137,7 @@ const latex_setting = [
 ]
 
 /* first page */
-const page1 = [
+const page1:PresetConfig = [
   'classic',
   {
     docs: {
@@ -158,16 +159,13 @@ const page1 = [
     theme: {
       customCss: './src/css/custom.css',
     },
-    gtag: {
-      trackingID: 'G-KJQBWD08DH',
-      anonymizeIP: true,
-    }
   } satisfies Preset.Options,
 ]
 
 const config: Config = {
   ...meta,
   presets: [page1],
+  plugins:[gtag,sitemap],
   markdown: {
     mermaid:true,
   },

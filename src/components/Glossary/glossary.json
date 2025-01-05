@@ -51,9 +51,9 @@
     "tip":"docusaurus.config.ts\n1. presets > blog > routeBasePath 설정.\n2. src/pages/index.tsx 삭제"
   }, {
     "category":"Home",
-    "id": "Analytics 연결 테스트 방법",
+    "id": "Google Analytics 연결 테스트 방법",
     "text": "연결 테스트 방법",
-    "tip": "데이터 수집 및 수정 > 데이터 스트림 > (선택) > 태그 안내 > 직접 설치 > 테스트"
+    "tip": "데이터 수집 및 수정 > 데이터 스트림 > (선택) > 태그 안내 > 직접 설치 > 테스트\n또는 https://tagassistant.google.com 활용."
   }, {
     "category":"md",
     "id":"bf&it",
