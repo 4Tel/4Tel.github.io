@@ -54,10 +54,6 @@ const codeTheme = {
 
 /** Blog Information. */
 const meta: Config = {
-  // git
-  organizationName: '4Tel',
-  projectName: '4Tel.github.io',
-  deploymentBranch: 'main',
   // site
   url: 'https://4Tel.github.io/',
   baseUrl: '/',
@@ -148,21 +144,21 @@ const page1 = [
       routeBasePath: '/',
       ...doc_settings,
     },
-    blog: {
-      showReadingTime: true,
-      feedOptions: {
-        type: ['rss', 'atom'],
-        xslt: true,
-      },
-      ...doc_settings,
-      onInlineTags: 'warn',
-      onInlineAuthors: 'warn',
-      onUntruncatedBlogPosts: 'warn',
-    },
+    // blog: {
+    //   showReadingTime: true,
+    //   feedOptions: {
+    //     type: ['rss', 'atom'],
+    //     xslt: true,
+    //   },
+    //   ...doc_settings,
+    //   onInlineTags: 'warn',
+    //   onInlineAuthors: 'warn',
+    //   onUntruncatedBlogPosts: 'warn',
+    // },
     theme: {
       customCss: './src/css/custom.css',
     },
-    googleAnalytics: {
+    gtag: {
       trackingID: 'G-KJQBWD08DH',
       anonymizeIP: true,
     }

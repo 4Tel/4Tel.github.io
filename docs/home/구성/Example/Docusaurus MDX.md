@@ -443,3 +443,5 @@ import rawAdmonition from '!!raw-loader!./_admonition.md'
   * 전체 metadata: docusaurus.config.ts에 작성.
   * 단일 metadata: MDX에서 <head></head> 안에 작성 시 반영 됨.
   * robots.txt를 통해 검색 엔진 접근 설정.
+  * [다국어 지원](https://docusaurus.io/docs/i18n/introduction)
+  * [정적 사이트](https://docusaurus.io/docs/advanced/ssg)

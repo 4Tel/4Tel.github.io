@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Docusaurus 기능
-* 기능 정리 기준: docusaurus v3.6
+* 기능 정리 기준: docusaurus v3.6.1
 ## 장점
 * React 기반
 * 유지보수가 활발.
@@ -22,6 +22,7 @@ sidebar_position: 3
 * 라이브 에디터
 * Markdown 기능 [예제](Example/md+html.md)
 * MD 추가 기능 [예제](<Example/Docusaurus MDX.md>)
+* 기타 등등..
 ### 페이지
 #### [독립 페이지](https://docusaurus.io/docs/creating-pages)
 * src/pages에 파일 작성
@@ -79,4 +80,3 @@ sidebar_position: 3
 * 게시글 최상단 이동 버튼
 ## TODO
 * 댓글 기능
-* https://docusaurus.io/docs/markdown-features
