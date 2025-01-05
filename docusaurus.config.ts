@@ -1,57 +1,10 @@
-import {themes} from 'prism-react-renderer';
 import type * as Preset from '@docusaurus/preset-classic';
 import type {Config, PresetConfig, ThemeConfig} from '@docusaurus/types';
 import type {Navbar, NavbarItem} from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 //
-import {gtagPlug, sitemapPlug} from './plugin.config';
-
-const codeTheme = {
-  additionalLanguages: ['bash'], //,'csharp','fortran'],
-  /*  
-  additionalLanguages: ['bash'], //,'csharp','fortran'],
-  /*  
-  ● : color-background
-  ■ : operator coloring 
-  ☆: suggestion
-  ★: suggestion (strong)
-  */  
-  theme: themes.oneDark,
-  // theme: themes.duotoneLight,         // ● blue
-  // theme: themes.github,               // blue
-  // theme: themes.gruvboxMaterialLight, // ● orange
-  // theme: themes.jettwaveLight,        // ● blue
-  // theme: themes.nightOwlLight,        // green + purple
-  // theme: themes.oneLight,             // ☆ orange
-  // theme: themes.vsLight,              // brown + blue
-  // darkTheme: themes.dracula,             // ★ italic + pink + purple
-  // darkTheme: themes.duotoneDark,          // ■ orange + purple
-  // darkTheme: themes.gruvboxMaterialDark,  // ☆ orange
-  // darkTheme: themes.jettwaveDark,         // blue
-  // darkTheme: themes.nightOwl,             // ☆ ■ italic + green + blue
-  // darkTheme: themes.oceanicNext,          // ★ ■ magenta
-  // darkTheme: themes.okaidia,              // ★ ■ yellow + green + blue
-  // darkTheme: themes.oneDark,              // ★ ■ purple + green + blue
-  // darkTheme: themes.palenight,            // ■ italic + red
-  // darkTheme: themes.shadesOfPurple,       // ■ ● orange + blue
-  // darkTheme: themes.synthwave84,          // ● red + orange
-  // darkTheme: themes.vsDark,               // ☆ ■ yellow + blue
-  
-  magicComments: [
-    // Remember to extend the default highlight class name as well!
-    {
-      className: 'theme-code-block-highlighted-line',
-      line: 'highlight-next-line',
-      block: {start: 'highlight-start', end: 'highlight-end'},
-    },
-    {
-      className: 'error-line',
-      line: 'error-line',
-      block: {start: 'error-start', end: 'error-end'},
-    },
-  ],
-}
+import {codeTheme, gtag} from './config.config';
 
 /** Blog Information. */
 const meta: Config = {
@@ -165,7 +118,7 @@ const page1:PresetConfig = [
 const config: Config = {
   ...meta,
   presets: [page1],
-  plugins:[gtagPlug,sitemapPlug],
+  plugins:[gtag],
   markdown: {
     mermaid:true,
   },
