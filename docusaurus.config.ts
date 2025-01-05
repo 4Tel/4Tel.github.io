@@ -5,7 +5,7 @@ import type {Navbar, NavbarItem} from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 //
-import {gtag, sitemap} from 'plugin.config';
+import {gtag, sitemap} from './plugin.config';
 
 const codeTheme = {
   additionalLanguages: ['bash'], //,'csharp','fortran'],
