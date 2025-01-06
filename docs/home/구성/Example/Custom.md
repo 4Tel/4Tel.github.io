@@ -44,7 +44,13 @@
   />
 </WidthSection>
 
-## <Glossary id="Glossary">사전집 사용</Glossary>
+## <Glossary id="Glossary"></Glossary>
+<Glossary text='markdown usage'>
+  ### markdown usage
+  * dot list
+  1. number list
+</Glossary> <br/>
+<Glossary text='file usage' fpath='/_Glossary.md'/>
 * <Glossary id="docusaurus"></Glossary> is docusaurus
 * <Glossary id="markdown"/> is markdown
 * <Glossary id="markdown" text="another text"/> is markdown too.

@@ -341,7 +341,7 @@ import rawAdmonition from '!!raw-loader!./_admonition.md'
    * 감춰져 있는 지 여부는 영향 없음.
 </details>
 
-## Plugin
+## 플러그인 Plugin
 <Tabs>
   <TabItem value="기능">
     * 코어 자체는 기능이 없으며 플러그인이 기능을 제공함.
