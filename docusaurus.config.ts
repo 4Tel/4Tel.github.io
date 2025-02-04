@@ -29,27 +29,51 @@ const navigation:Navbar = {
     src: 'img/favicon.ico',
   },
   hideOnScroll: true,
-  items: [ {
-      type: 'doc',
-      docId: 'home/home',
+  items: [ 
+    {
       label: 'Home',
-      position: 'left',
+      position:'left',
+      to:"/",
+      items: [
+        {label: 'Blog Code', to:"/Example/md+html" }
+      ]
     }, {
-      type: 'doc',
-      docId: 'study/study',
+      label: 'Math',
       position: 'left',
-      label: 'Study',
+      items: [
+        { label: "대수학", to: 'Math/Algebra' }
+      ]
     }, {
-      type: 'doc',
-      docId: 'tuto/tuto',
+      label: 'Physics',
       position: 'left',
+      items: [
+        { label: "Quantum Espresso", to: "/Physics/QE" },
+        { label: "QE-PW", to: "/Physics/QE-PW" }
+      ]
+    }, {
+      label: 'Computer',
+      position: 'left',
+      items: []
+    }, {
       label: 'Tutorial',
-    }, {
-      type: 'doc',
-      docId: 'SCR/SCR',
       position: 'left',
+      items: [
+        { label:'Latex',to:'/tuto/latex'}
+      ]
+    }, {
       label: 'Starcraft',
-    },
+      position:'left',
+      to: '/SCR/SCR',
+      items: [
+        { label: '오프셋', to:'/SCR/offset' }
+      ]
+    }, {
+      label: 'Books',
+      position: 'left',
+      items: [
+        { label: '전자기학', to:'/books/electrodynamics'}
+      ]
+    }
   ],
 };
 

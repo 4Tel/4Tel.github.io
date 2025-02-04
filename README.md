@@ -1,10 +1,9 @@
 # 4tel.github.io
 ## TODO
-* write home
-* write study
-	* write Book
+* write QE-PW
 * write Tutorial
 	* latex
 	* md
 	* p-lang
 * write SCR
+* write Book
