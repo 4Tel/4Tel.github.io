@@ -47,8 +47,6 @@ const navigation:Navbar = {
       label: 'Physics',
       position: 'left',
       items: [
-        { label: "Quantum Espresso", to: "/Physics/QE" },
-        { label: "QE-PW", to: "/Physics/QE-PW" }
       ]
     }, {
       label: 'Computer',
@@ -58,7 +56,10 @@ const navigation:Navbar = {
       label: 'Tutorial',
       position: 'left',
       items: [
-        { label:'Latex',to:'/tuto/latex'}
+        { label: 'vs-code', to: '/tuto/vs-code' },
+        { label: 'Latex',to:'/tuto/latex'},
+        { label: "Quantum Espresso", to: "/tuto/QE" },
+        { label: "QE-PW", to: "/tuto/QE-PW" }
       ]
     }, {
       label: 'Starcraft',

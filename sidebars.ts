@@ -23,17 +23,17 @@ const mathBars:SidebarsConfig = {
 }
 
 const physicsBars:SidebarsConfig = {
-  qeBar: [auto('Physics/QE')],
-  qepwBar: [auto('Physics/QE-PW')]
 }
 
 const computerBars:SidebarsConfig = {
-
+  
 }
 
-const tutoBars:SidebarsConfig = {
-  latexBar: [auto('tuto/latex')],
-
+const tutoBars: SidebarsConfig = {
+  vscodeBar: [auto("tuto/vs-code")],
+  latexBar: [auto("tuto/latex")],
+  qeBar: [auto("tuto/QE")],
+  qepwBar: [auto("tuto/QE-PW")],
 };
 
 const scrBars:SidebarsConfig = {
