@@ -37,7 +37,8 @@ const tutoBars: SidebarsConfig = {
 };
 
 const scrBars:SidebarsConfig = {
-
+  offsetBar: [auto('SCR/offset')],
+  zcrBar: [auto('SCR/ZCR')]
 }
 
 const booksBars:SidebarsConfig = {

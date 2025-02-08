@@ -1,9 +1,8 @@
 ---
 sidebar_position: 1
-sidebar_label: SC:R
 ---
-# <Glossary id="SC:R"/>
-## 계획
+# Intro
+## 계획표
 |진행 연도|완료|목표|
 |:-:|:-:|:-:
 2021|:heavy_check_mark:|SC:R 공부
@@ -12,7 +11,7 @@ sidebar_label: SC:R
 2022|:heavy_check_mark:|orderID 연구
 2023|:heavy_check_mark:|내장WAV 분류
 2023|:heavy_check_mark:|GPTP 정리
-2024|:x:|(졸업 준비)
+2024|:heavy_check_mark:|(졸업 준비 및 졸업)
 2025|:x:|오프셋 문서화
 2025|:x:|BWAPI 공부
 2025 ~ 2026|:x:|맵제작 문서 정리

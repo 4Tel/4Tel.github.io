@@ -64,8 +64,8 @@ const navigation:Navbar = {
     }, {
       label: 'Starcraft',
       position:'left',
-      to: '/SCR/SCR',
       items: [
+        { label: "ZCR", to: '/SCR/ZCR' },
         { label: '오프셋', to:'/SCR/offset' }
       ]
     }, {
