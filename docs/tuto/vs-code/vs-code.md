@@ -18,6 +18,13 @@
 ### 환경 / 원격 환경
 * Remote SSH: 원격지 접속
 * Remote Explorer: 원격지 접속 시각화 패널
+* Project Manager
+    - 현재 프로젝트 환경 저장
+    - 원격 접속 환경도 저장 가능.
+    - Remote Explorer는 자주 접속하는 프로젝트의 개수가 늘어나면 관리가 불편.
+    - 각 프로젝트의 이름 변경 가능.
+    - code-workspace로 관리할 수도 있으나 마찬가지로 자주 접속하는 프로젝트가 늘어나면 관리가 불편.
+    - 태그 및 검색 기능 제공.
 * Resource Monitor: 컴퓨터 자원 보기
 ### 연구
 * vscode-pdf: pdf파일을 vscode에서 볼 수 있다.
