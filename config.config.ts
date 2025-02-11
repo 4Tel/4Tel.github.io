@@ -1,14 +1,14 @@
 import {themes} from 'prism-react-renderer';
 export const codeTheme = {
-  additionalLanguages: ['bash'], //,'csharp','fortran'],
-  /*  
-  additionalLanguages: ['bash'], //,'csharp','fortran'],
+  // support languages: https://prismjs.com/#supported-languages
+  // preview: https://highlightjs.org/demo
+  additionalLanguages: ["bash", "fortran"], //,'csharp','fortran'],
   /*  
   ● : color-background
   ■ : operator coloring 
   ☆: suggestion
   ★: suggestion (strong)
-  */  
+  */
   theme: themes.oneDark,
   // theme: themes.duotoneLight,         // ● blue
   // theme: themes.github,               // blue
@@ -29,21 +29,21 @@ export const codeTheme = {
   // darkTheme: themes.shadesOfPurple,       // ■ ● orange + blue
   // darkTheme: themes.synthwave84,          // ● red + orange
   // darkTheme: themes.vsDark,               // ☆ ■ yellow + blue
-  
+
   magicComments: [
     // Remember to extend the default highlight class name as well!
     {
-      className: 'theme-code-block-highlighted-line',
-      line: 'highlight-next-line',
-      block: {start: 'highlight-start', end: 'highlight-end'},
+      className: "theme-code-block-highlighted-line",
+      line: "highlight-next-line",
+      block: { start: "highlight-start", end: "highlight-end" },
     },
     {
-      className: 'error-line',
-      line: 'error-line',
-      block: {start: 'error-start', end: 'error-end'},
+      className: "error-line",
+      line: "error-line",
+      block: { start: "error-start", end: "error-end" },
     },
   ],
-}
+};
 
 import { PluginConfig } from "@docusaurus/types";
 export const gtag:PluginConfig = [

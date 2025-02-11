@@ -2,6 +2,7 @@
 ## 유용한 단축키
 ### 편집기
 * Ctrl + 숫자: 분할 편집기 탭 이동
+* Ctrl + \: 현태 파일을 분할.
 * Ctrl + PageUp/Down: 탭 이동
 * Ctrl + Tab: 편집기 탭 전환
 * Ctrl + F4: 편집기 탭 닫기

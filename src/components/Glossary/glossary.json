@@ -67,10 +67,18 @@
     "category":"physics",
     "id":"자체 인덕턴스",
     "tip":"자신의 전류 변화에 의해 전류 유도"
-  },{
+  }, {
     "category":"physics",
     "id":"DFT",
     "tip": "밀도 범함수 이론\nDensity Functional Theory"
+  }, {
+    "category":"DFT",
+    "id":"PW",
+    "tip":"Plane-Wave\n평면파"
+  }, {
+    "category":"DFT",
+    "id":"PP",
+    "tip":"Peudo-Potential"
   }, {
     "category": "ZC:R",
     "id":"SC:R",

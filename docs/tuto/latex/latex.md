@@ -6,13 +6,13 @@ sidebar_position: 1
 ## 폰트
 ### 크기
 |||||||||
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-|:-|:-|:-|:-|:-|:-|:-|
 |$\tiny a$|\tiny|$\scriptsize a$|\scriptsize|$\footnotesize a$|\footnotesize|$\small a$|\small
 |$\normalsize a$|\normalsize|$\large a$|\large|$\Large a$|\Large|$\LARGE a$|\LARGE
 |$\huge a$|\huge|$\Huge a$|\Huge
 ### 꾸밈
 |||||||||
-:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
+:-|:-|:-|:-|:-|:-|:-|:-
 $\Large\.a$|\\\.<br/>\dot|$\Large\"a$|\\\"<br/>\ddot|$\Large\dddot a$|\dddot|$\Large\ddddot a$|\ddddot
 $\Large\r a$|\r<br/>\mathring|$\Large\'a$|\\\'<br/>\acute|$\Large\`a$|\\\`<br/>\grave|$\Large\H a$|\H
 |$\Large\=a$|\\\=<br/>\bar|$\Large\overline{ab}$|\overline|$\Large\vec a$|\vec|$\Large\overrightarrow{ab}$|\overrightarrow
@@ -23,7 +23,7 @@ $\Large\r a$|\r<br/>\mathring|$\Large\'a$|\\\'<br/>\acute|$\Large\`a$|\\\`<br/>\
 * 볼드는 bf, 이탤릭은 it로도 사용할 수 있으나 권장되지 <Glossary id="bf&it"/>
 
 |||
-|:-:|:-|
+|:-|:-|
 A|$\large{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large{01234567890}$
 \text\{A\}|$\large\text{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\text{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\text{01234567890}$
 이탤릭<br/>\textit\{A\}<br/>\mathit\{A\}|$\large\textit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ <br/> $\Large\textit{abcdefghijklmnopqrstuvwxyz}$ <br/> $\Large\textit{01234567890}$
@@ -39,7 +39,7 @@ more|볼드: \mathbf<br/>이탤릭:\mathit<br/>[see more1](https://tug.org/FontC
 ## 그리스어
 ### 소문자
 |||||||||||
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
 |$\Large\alpha$|\alpha|$\Large\beta$|\beta|$\Large\gamma$|\gamma|$\Large\delta$|\delta|$\Large\epsilon$|\epsilon
 |$\Large\zeta$|\zeta|$\Large\eta$|\eta|$\Large\theta$|\theta|$\Large\iota$|\iota|$\Large\kappa$|\kappa
 |$\Large\lambda$|\lambda|$\Large\mu$|\mu|$\Large\nu$|\nu|$\Large\xi$|\xi|$\Large\omicron$|\omicron
@@ -47,13 +47,13 @@ more|볼드: \mathbf<br/>이탤릭:\mathit<br/>[see more1](https://tug.org/FontC
 |$\Large\phi$|\phi|$\Large\chi$|\chi|$\Large\psi$|\psi|$\Large\omega$|\omega
 ### 특수문자
 |||||||||
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-|:-|:-|:-|:-|:-|:-|:-|
 |$\Large\varepsilon$|\varepsilon|$\Large\vartheta$|\vartheta|$\Large\varkappa$|\varkappa|$\Large\varpi$|\varpi
 |$\Large\varrho$|\varrho|$\Large\varphi$|\varrho|$\Large\varsigma$|\varsigma
 
 ### 대문자
 |||||||||
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-|:-|:-|:-|:-|:-|:-|:-|
 |$\Large\Gamma$|\Gamma|$\Large\Delta$|\Delta|$\Large\Theta$|\Theta|$\Large\Lambda$|\Lambda
 |$\Large\Xi$|\Xi|$\Large\Pi$|\Pi|$\Large\Sigma$|\Sigma|$\Large\Upsilon$|\Upsilon
 |$\Large\Phi$|\Phi|$\Large\Psi$|\Psi|$\Large\Omega$|\Omega

@@ -1,6 +1,6 @@
 import type * as Preset from '@docusaurus/preset-classic';
 import type {Config, PresetConfig, ThemeConfig} from '@docusaurus/types';
-import type {Navbar, NavbarItem} from '@docusaurus/theme-common'
+import type {Navbar} from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 //
