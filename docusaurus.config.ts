@@ -57,6 +57,7 @@ const navigation:Navbar = {
       position: 'left',
       items: [
         { label: 'vs-code', to: '/tuto/vs-code' },
+        { label: 'conda', to: '/tuto/conda'},
         { label: 'Latex',to:'/tuto/latex'},
         { label: "Quantum Espresso", to: "/tuto/QE" },
         { label: "QE-PW", to: "/tuto/QE-PW" }
