@@ -31,7 +31,8 @@ const computerBars:SidebarsConfig = {
 
 const tutoBars: SidebarsConfig = {
   vscodeBar: [auto("tuto/vs-code")],
-  latexBar: [auto("tuto/latex")],
+  langBar: [auto("tuto/lang")],
+  MDlatexBar: [auto("tuto/md+latex")],
   qeBar: [auto("tuto/QE")],
   qepwBar: [auto("tuto/QE-PW")],
 };

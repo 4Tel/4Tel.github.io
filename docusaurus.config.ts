@@ -58,7 +58,8 @@ const navigation:Navbar = {
       items: [
         { label: 'vs-code', to: '/tuto/vs-code' },
         { label: 'conda', to: '/tuto/conda'},
-        { label: 'Latex',to:'/tuto/latex'},
+        { label: '코딩 언어', to:'/tuto/lang'},
+        { label: 'MD+Latex',to:'/tuto/md+latex'},
         { label: "Quantum Espresso", to: "/tuto/QE" },
         { label: "QE-PW", to: "/tuto/QE-PW" }
       ]

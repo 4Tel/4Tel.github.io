@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+toc_max_heading_level: 3
 ---
 
 # Markdown & HTML
@@ -9,18 +10,16 @@ sidebar_position: 1
 *italic* **bold**
 ```
 ## 링크
+### 텍스트 링크
 [text](./md+html)
-<img src="/img/favicon.ico" width="30"/>
-[Download-link](./styles.module.css)
-[Download-link](./styles.module.css)
 ```md
 [text](link)
-<img src="URL" width="{width}" className="class for CSS">
-[Download-link](URL)
-<img src="URL" width="{width}" className="class for CSS">
-[Download-link](URL)
 ```
-* 테마에 따른 이미지 설정 [방법](https://docusaurus.io/docs/markdown-features/assets#themed-images)
+### 이미지
+<img src="/img/favicon.ico" width="30"/>
+```md
+<img src="URL" width="{width}" className="class for CSS">
+```
 * 테마에 따른 이미지 설정 [방법](https://docusaurus.io/docs/markdown-features/assets#themed-images)
 
 ## 인용구
@@ -41,22 +40,21 @@ sidebar_position: 1
 ---
 ```
 ## 코드 블록
+### inline code block
 This is `Inline code block`
+```md
 This is `Inline code block`
 ```
-simple code block
+### code block
+```
 simple code block
 ```
 ````md
-This is `Inline code block`
-This is `Inline code block`
 ```
-simple code block
 simple code block
 ```
 ````
-* [Code block 적용하기](https://docusaurus.io/docs/markdown-features/code-blocks)
-* [Code block 적용하기](https://docusaurus.io/docs/markdown-features/code-blocks)
+* Code block 적용하기 [참고](https://docusaurus.io/docs/markdown-features/code-blocks)
 ### 타이틀
 ```sh title="title"
 1
@@ -68,17 +66,12 @@ simple code block
 ````
 ### 줄번호
 ```sh showLineNumbers
-### 줄번호
-```sh showLineNumbers
 1
 ```
 ````
 ```sh showLineNumbers
-````
-```sh showLineNumbers
 1
 ```
-````
 ````
 ## 내용 접기
 <details>
