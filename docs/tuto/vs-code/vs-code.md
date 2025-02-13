@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # vs-code
 ## 유용한 단축키
 ### 편집기
