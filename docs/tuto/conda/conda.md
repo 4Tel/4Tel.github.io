@@ -41,8 +41,14 @@ conda remove -n (old) --all
 conda list
 ```
 ### 패키지 설치
+* 채널 미사용.
 ```bash
 conda install (package)
+```
+* 채널 사용
+```bash
+conda install -c conda-forge (package)
+conda install conda-forge::(package)
 ```
 ### 패키지 삭제
 ```bash
