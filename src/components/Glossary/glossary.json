@@ -69,6 +69,10 @@
     "tip":"자신의 전류 변화에 의해 전류 유도"
   }, {
     "category":"physics",
+    "id":"SOC",
+    "tip":"Spin-Orbit Coupling\n전자-궤도 상호작용"
+  }, {
+    "category":"physics",
     "id":"DFT",
     "tip": "밀도 범함수 이론\nDensity Functional Theory"
   }, {
@@ -79,6 +83,14 @@
     "category":"DFT",
     "id":"PP",
     "tip":"Peudo-Potential"
+  }, {
+    "category":"DFT",
+    "id":"SCF",
+    "tip":"Self-Consistent Field\n자기 일관성 장"
+  }, {
+    "category": "QE",
+    "id":"QE",
+    "tip":"Quantum Espresso"
   }, {
     "category": "ZC:R",
     "id":"SC:R",

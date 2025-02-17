@@ -3,11 +3,20 @@ sidebar_position: 1
 ---
 # QE-PW
 ## 소개
-* QE의 가장 핵심은 PW 패키지이다.
+* QE의 가장 핵심은 PWscf 패키지이다.
 * 양자역학의 다체 문제에 대한 해를 구하는 DFT을 사용한다.
 * 슈뢰딩거 방정식을 풀이에 적합한 형태로 변형한 콘-샴 방정식의 해를 구한다.
 * 파동함수를 다루는 여러 basis 중 <Glossary id="PW"/>를 사용한다.
 * 해를 구하기 위해 SCF 방법을 사용한다.
+## PWscf 흐름도
+```mermaid
+flowchart LR;
+    A([run])-->B[설정]
+    B-->C1[NSCF];
+    B-->SCF-->D[MD];
+    C1-->E[Post Process];
+    D-->E;
+```
 ## 목적
 * PW의 동작에 대해 이해한다.
     * Plane-Wave Basis DFT Package의 동작은 소프트웨어에 따른 차이가 적다.
