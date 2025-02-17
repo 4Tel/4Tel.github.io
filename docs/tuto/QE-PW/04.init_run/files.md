@@ -1,4 +1,4 @@
-# 설정
+# 관련 파일
 ## 병렬화 (mp)
 * 폴더: Modules
 * 파일: mp / mp_global / mp_world / mp_bands 등
