@@ -56,9 +56,9 @@ const navigation:Navbar = {
       label: 'Tutorial',
       position: 'left',
       items: [
-        { label: "git" , to: "/tuto/git" },
-        { label: 'vs-code', to: '/tuto/vs-code' },
-        { label: 'conda', to: '/tuto/conda'},
+        { label: "Git" , to: "/tuto/git/remote" },
+        { label: 'VS-code', to: '/tuto/vs-code' },
+        { label: 'Conda', to: '/tuto/conda'},
         { label: '코딩 언어', to:'/tuto/lang'},
         { label: 'MD+Latex',to:'/tuto/md+latex/Markdown'},
         { label: "Quantum Espresso", to: "/tuto/QE" },
