@@ -47,6 +47,7 @@ const navigation:Navbar = {
       label: 'Physics',
       position: 'left',
       items: [
+        { label:'후처리',to:'/Physics/PP/RDF'}
       ]
     }, {
       label: 'Computer',
@@ -62,7 +63,7 @@ const navigation:Navbar = {
         { label: '코딩 언어', to:'/tuto/lang'},
         { label: 'MD+Latex',to:'/tuto/md+latex/Markdown'},
         { label: "Quantum Espresso", to: "/tuto/QE" },
-        { label: "QE-PW", to: "/tuto/QE-PW" }
+        { label: "QE-PW", to: "/tuto/QE-PW" },
       ]
     }, {
       label: 'Starcraft',

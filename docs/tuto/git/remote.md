@@ -1,3 +1,4 @@
+# 원격
 ## 추가
 ```bash
 git remote add origin https:github.com/(계정)/(저장소)

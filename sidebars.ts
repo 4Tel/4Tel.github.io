@@ -23,6 +23,7 @@ const mathBars:SidebarsConfig = {
 }
 
 const physicsBars:SidebarsConfig = {
+  ppBar: [auto('Physics/PP')]
 }
 
 const computerBars:SidebarsConfig = {
