@@ -12,10 +12,6 @@ conda env list
 ```bash
 conda create -n (new) python=(version)
 ```
-### 환경 복사
-```bash
-conda create -n (new) --clone (old)
-```
 ### 환경 활성
 ```bash
 conda activate (env)
@@ -28,11 +24,28 @@ conda deactivate
 ```bash
 conda remove -n (old) --all
 ```
+### 환경 복사
+```bash
+conda create -n (new) --clone (old)
+```
 ### 환경 이름 변경
 * 직접적인 이름 변경 기능이 없어서 복사 및 삭제.
 ```bash
 conda create -n (new) --clone (old)
 conda remove -n (old) --all
+```
+## 환경 변수
+### 설정
+```bash
+conda env config vars set (name)=(value)
+```
+### 삭제
+```bash
+conda env config vars unset (name)
+```
+### 목록
+```bash
+conda env config vars list
 ```
 
 ## 패키지
