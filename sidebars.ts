@@ -31,6 +31,7 @@ const computerBars:SidebarsConfig = {
 }
 
 const tutoBars: SidebarsConfig = {
+  condaBar: [auto("tuto/conda")],
   gitBar: [auto("tuto/git")],
   vscodeBar: [auto("tuto/vs-code")],
   langBar: [auto("tuto/lang")],
