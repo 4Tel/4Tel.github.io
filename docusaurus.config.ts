@@ -58,7 +58,7 @@ const navigation:Navbar = {
       position: 'left',
       items: [
         { label: "Git" , to: "/tuto/git/git" },
-        { label: 'VS-code', to: '/tuto/vs-code' },
+        { label: 'vscode', to: '/tuto/vscode' },
         // { label: 'GDB', to: '/tuto/gdb' },
         { label: 'Conda', to: '/tuto/conda'},
         { label: '코딩 언어', to:'/tuto/lang'},

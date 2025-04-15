@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# vs-code
+# Visual Studio Code
 ## 유용한 단축키
 ### 편집기
 * Ctrl + 숫자: 분할 편집기 탭 이동
