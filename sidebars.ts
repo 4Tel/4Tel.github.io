@@ -38,6 +38,8 @@ const tutoBars: SidebarsConfig = {
   MDlatexBar: [auto("tuto/md+latex")],
   qeBar: [auto("tuto/QE")],
   qepwBar: [auto("tuto/QE-PW")],
+  shortcutsBar: [auto("tuto/shortcuts")],
+  // gdbBar: [auto("tuto/gdb")],
 };
 
 const scrBars:SidebarsConfig = {
