@@ -57,15 +57,16 @@ const navigation:Navbar = {
       label: 'Tutorial',
       position: 'left',
       items: [
-        { label: "Git" , to: "/tuto/git/git" },
-        { label: 'vscode', to: '/tuto/vscode' },
-        // { label: 'GDB', to: '/tuto/gdb' },
-        { label: 'Conda', to: '/tuto/conda'},
+        { label: "단축키 모음", to: "/tuto/shortcuts" },
         { label: '코딩 언어', to:'/tuto/lang'},
         { label: 'MD+Latex',to:'/tuto/md+latex/Markdown'},
+        { label: 'vscode', to: '/tuto/vscode' },
+        { label: 'Conda', to: '/tuto/conda'},
+        { label: "Git" , to: "/tuto/git/git" },
+        { label: 'Linux', to: '/tuto/linux' },
+        // { label: 'GDB', to: '/tuto/gdb' },
         // { label: "Quantum Espresso", to: "/tuto/QE" },
         // { label: "QE-PW", to: "/tuto/QE-PW" },
-        { label: "단축키 모음", to: "/tuto/shortcuts" },
       ]
     }, {
       label: 'Starcraft',

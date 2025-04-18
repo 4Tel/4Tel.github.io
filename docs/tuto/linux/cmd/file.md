@@ -12,6 +12,8 @@
 
 ## ls
 ## file
+## chomod
+
 
 ## readlink
 ## objdump

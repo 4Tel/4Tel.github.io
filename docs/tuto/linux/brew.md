@@ -30,3 +30,7 @@ eval "$(homebrew/bin/brew shellenv)"
 brew update --force --quiet
 chmod -R go-w "$(brew --prefix)/share/zsh"
 ```
+* 설치
+```sh
+brew install hello
+```

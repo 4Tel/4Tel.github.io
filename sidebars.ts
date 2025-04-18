@@ -31,15 +31,16 @@ const computerBars:SidebarsConfig = {
 }
 
 const tutoBars: SidebarsConfig = {
-  condaBar: [auto("tuto/conda")],
-  gitBar: [auto("tuto/git")],
-  vscodeBar: [auto("tuto/vscode")],
+  shortcutsBar: [auto("tuto/shortcuts")],
   langBar: [auto("tuto/lang")],
   MDlatexBar: [auto("tuto/md+latex")],
+  vscodeBar: [auto("tuto/vscode")],
+  condaBar: [auto("tuto/conda")],
+  gitBar: [auto("tuto/git")],
+  linuxBar: [auto("tuto/linux")],
+  // gdbBar: [auto("tuto/gdb")],
   qeBar: [auto("tuto/QE")],
   qepwBar: [auto("tuto/QE-PW")],
-  shortcutsBar: [auto("tuto/shortcuts")],
-  // gdbBar: [auto("tuto/gdb")],
 };
 
 const scrBars:SidebarsConfig = {
