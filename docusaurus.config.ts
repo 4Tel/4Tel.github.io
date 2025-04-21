@@ -81,6 +81,10 @@ const navigation:Navbar = {
       items: [
         { label: '전자기학', to:'/books/electrodynamics'}
       ]
+    }, {
+      label: 'Blog',
+      position: 'left',
+      to: '/blog',
     }
   ],
 };
@@ -130,17 +134,17 @@ const page1:PresetConfig = [
       routeBasePath: '/',
       ...doc_settings,
     },
-    // blog: {
-    //   showReadingTime: true,
-    //   feedOptions: {
-    //     type: ['rss', 'atom'],
-    //     xslt: true,
-    //   },
-    //   ...doc_settings,
-    //   onInlineTags: 'warn',
-    //   onInlineAuthors: 'warn',
-    //   onUntruncatedBlogPosts: 'warn',
-    // },
+    blog: {
+      showReadingTime: true,
+      feedOptions: {
+        type: ['rss', 'atom'],
+        xslt: true,
+      },
+      ...doc_settings,
+      onInlineTags: 'warn',
+      // onInlineAuthors: 'warn',
+      onUntruncatedBlogPosts: 'warn',
+    },
     theme: {
       customCss: './src/css/custom.css',
     },
