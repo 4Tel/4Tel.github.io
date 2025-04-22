@@ -117,6 +117,7 @@ const doc_settings = {
   editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/',
   remarkPlugins: [remarkMath],
   rehypePlugins: [[rehypeKatex,{strict:false}]],
+  showLastUpdateTime: true,
 }
 const latex_setting = [
   {
@@ -133,16 +134,16 @@ const page1:PresetConfig = [
       sidebarPath: './sidebars.ts',
       routeBasePath: '/',
       ...doc_settings,
+      onInlineTags: 'warn',
     },
     blog: {
       showReadingTime: true,
       feedOptions: {
-        type: ['rss', 'atom'],
+        type: "all",
         xslt: true,
       },
       ...doc_settings,
       onInlineTags: 'warn',
-      // onInlineAuthors: 'warn',
       onUntruncatedBlogPosts: 'warn',
     },
     theme: {

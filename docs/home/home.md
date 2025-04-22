@@ -1,6 +1,8 @@
 ---
 slug: /
 sidebar_position: 1
+toc_min_heading_level: 3
+tags: [hello]
 ---
 # Home
 ## Made by 4Tel

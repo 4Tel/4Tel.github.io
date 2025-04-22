@@ -9,7 +9,6 @@ import rawStyles from '!!raw-loader!./styles.module.css';
 import _admonition from './_admonition.md'
 import rawAdmonition from '!!raw-loader!./_admonition.md'
 
-
 # Docusaurus MDX
 ## 탭
 <Tabs>
@@ -209,13 +208,13 @@ import rawAdmonition from '!!raw-loader!./_admonition.md'
 * 파일 내용을 raw-text로 첨부
 <Tabs>
   <TabItem value='code'>
-    <CodeBlock language='md'>{rawMDX}</CodeBlock>
-  </TabItem>
-  <TabItem value='결과' default>
     ``` md
     import rawMDX from '!!raw-loader!./_markdown-partial-example.mdx';
     <CodeBlock language='md'>{rawMDX}</CodeBlock>
     ```
+  </TabItem>
+  <TabItem value='결과' default>
+    <CodeBlock language='md'>{rawMDX}</CodeBlock>
   </TabItem>
   <TabItem value='참고'>
     * [참고](https://docusaurus.io/docs/markdown-features/react#importing-code-snippets)
