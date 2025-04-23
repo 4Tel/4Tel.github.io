@@ -10,3 +10,4 @@
 * 검색 기능
 * nested navbar
 * close ToC automatically
+* $\alpha$
