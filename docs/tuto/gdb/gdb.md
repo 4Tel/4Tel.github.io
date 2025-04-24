@@ -1,27 +1,19 @@
+---
+sidebar_position: 1
+---
 ## 필요 설정
 * -g: 디버깅 가능 (필수)
 * -O0: 최적화X (권고)
-## 변수 목록
+## 기본 사용법
+### gdb 실행
 ```sh
-info variables
+gdb (실행파일)
 ```
-또는
+### 실행파일 실행
 ```sh
-info variables (키워드)
+run <(input File)
 ```
-## 변수 출력
+### 종료
 ```sh
-p (변수명)
-```
-```sh title="hex type"
-p/x (변수명)
-```
-## 변수 추적
-* 변수 읽기/쓰기 시 break
-```sh
-awatch (변수명)
-```
-## type cast
-```sh
-* (real_8 *) modulename_mp_varname_@2
+quit
 ```
