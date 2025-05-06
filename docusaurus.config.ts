@@ -79,7 +79,8 @@ const navigation:Navbar = {
       label: 'Books',
       position: 'left',
       items: [
-        { label: '전자기학', to:'/books/electrodynamics'}
+        { label: '전자기학', to:'/books/electrodynamics'},
+        { label: '선형대수학', to:'/books/linearAlgebra'}
       ]
     }, {
       label: 'Blog',

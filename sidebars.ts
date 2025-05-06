@@ -49,7 +49,8 @@ const scrBars:SidebarsConfig = {
 }
 
 const booksBars:SidebarsConfig = {
-  electrodynamicsBar: [auto('books/electrodynamics')]
+  electrodynamicsBar: [auto('books/electrodynamics')],
+  linearAlgebraBar: [auto('books/linearAlgebra')],
 }
 
 const sidebars:SidebarsConfig = {
