@@ -63,6 +63,30 @@ rm -rf /home/(사용자이름)
 rm -rf /var/mail/(사용자이름)
 ```
 또는
-```
+```bash
 rm -rf /var/spool/mail/(사용자이름)
 ```
+## sudo 권한
+* superuser do
+### sudoers 파일 편집
+```bash
+visudo
+```
+또는
+```bash
+vi /etc/sudoers
+```
+### sudoers.d 폴더 편집
+* `/etc/sudoers.d/` 디렉토리에 개별 파일로 sudoers 설정을 추가 가능.
+* `/etc/sudoers` 파일과 동일한 형식으로 작성되어야 함.
+### sudoers 파일 구조
+* `Defaults` : 기본 설정
+* `User_Alias` : 사용자 별칭 정의
+* `Runas_Alias` : 실행 권한 별칭 정의
+* `Host_Alias` : 호스트 별칭 정의
+* `Cmnd_Alias` : 명령어 별칭 정의
+## useradd 옵션
+* `-m`: 유저의 홈 디렉토리를 생성합니다.
+* `-s`: 로그인 쉘을 지정합니다. 예: `/bin/bash`, `/bin/sh`, `/bin/zsh` 등.
+* `-c`: 사용자에 대한 설명을 추가합니다.
+* `-G`: 그룹을 지정합니다. 쉼표로 구분하여 여러 그룹을 지정할 수 있습니다.
