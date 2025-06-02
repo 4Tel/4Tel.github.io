@@ -1,5 +1,5 @@
 * Network Information Service (NIS)
-* [RPC](../RPC/RPC.md) 기반
+* [RPC](../method/RPC.md) 기반
 ## Daemon 실행
 ```bash
 service ypserv start
