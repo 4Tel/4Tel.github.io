@@ -3,7 +3,7 @@
 ### 필수 절차
 1. 계정 생성 `useradd`
 2. 비밀번호 설정 `passwd`
-
+3. ([NIS](../../remote/protocol/NIS.md)인 경우) NIS 갱신 `make -C /var/yp`
 ### 계정 생성
 * 사용자 계정을 생성합니다.
 ```bash
