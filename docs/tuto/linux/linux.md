@@ -1,0 +1,1 @@
+* empty home of linux document
