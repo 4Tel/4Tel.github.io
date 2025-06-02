@@ -54,31 +54,14 @@ sudo quotatool -s (경로)
 ```bash
 sudo repquota -h (경로)
 ```
-### ncdu 방법
-* UI 지원.
-* 캐시 생성 시 시간 소요.
-* 캐시 기반으로 빠른 수행.
-* 단일 스레드로 느린 수행.
-* 설치: `brew install ncdu`
-* 사용법: `ncdu -o (저장파일명) (경로)`
-### dust 방법
-* UI 미지원.
-* 병렬화를 통한 빠른 수행.
-* 캐시 미생성. 매 수행 시 새로 검사.
-* 설치: `brew install dust`
-* 사용법: `dust (경로)`
-### dua 방법
-* UI 미지원.
-* 병렬화를 통한 빠른 수행.
-* 캐시 미생성. 매 수행 시 새로 검사.
-* 설치: `brew install dua-cli`
-* 사용법1: `dua  (경로)`
-* 사용법2: `dua i (경로)`
-### gdu-go 방법
-* UI 지원.
-* 병렬화를 통한 빠른 수행.
-* 캐시 기반으로 빠른 수행.
-* 설치: `brew install gdu`
-* 사용법1: `gdu-go (경로)`
-* 사용법2: `gdu-go -o (저장파일명) (경로)`
-* 사용법3: `gdu-go -f (저장파일명)`
+### 범용 패키지 방법
+* du 명령어를 활용하여 용량 측정.
+* UI, 병렬화, 인덱싱 등 추가 기능 지원
+
+|패키지|UI|병렬화|인덱싱|설치|사용법|
+|:---:|:---:|:---:|:---:|:-|:-|
+|ncdu|TUI|X|O|`brew install ncdu`|`ncdu -o (저장파일명) (경로)`|
+|[dust](https://github.com/bootandy/dust)|CLI|O|X|`brew install dust`|`dust (경로)`|
+|[dua-cli](https://github.com/Byron/dua-cli/)|X|O|X|`brew install dua-cli`|`dua  (경로)`<br/>`dua i (경로)`|
+|[gdu-go](https://github.com/dundee/gdu)|TUI|O|O|`brew install gdu`|`gdu-go (경로)`<br/>`gdu-go -o (저장파일명) (경로)`<br/>`gdu-go -f (저장파일명)`|
+|duc|TUI|O|O|`brew install duc`|`duc (경로)`|
