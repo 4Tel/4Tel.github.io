@@ -55,7 +55,26 @@ sudo quotatool -s (경로)
 sudo repquota -h (경로)
 ```
 ### 범용 패키지 방법
-* 주로 du 명령어를 활용하여 용량 측정.
 * UI, 병렬화, 인덱싱 등 추가 기능 지원.
 * UI 관련: [pdu 유사 프로그램](https://github.com/KSXGitHub/parallel-disk-usage?tab=readme-ov-file#similar-programs) 참고.
 * 성능 관련: [gdu-go Benchmark](https://github.com/dundee/gdu?tab=readme-ov-file#benchmarks) 참고.
+#### 사용 경험
+##### 조건
+* 약 30TB 크기의 xfs, non-quota 시스템
+* `/home`의 각 유저의 디렉토리 용량 측정.
+* `maxdepth=2`까지의 용량 정보 저장이 필요.
+##### 실행
+* 초기에는 `du`를 이용한 용량 측정이 오래 걸리므로 인덱싱 방법을 조사함.
+* 그러나 대부분의 범용 패키지 방법은 인덱싱을 지원하지 않음.
+* 인덱싱을 지원하는 경우 maxdepth를 지원하지 않아 모든 내용을 저장하거나, 실행 자체가 느림.
+##### 결과
+* 기존 becnhmark 결과를 참고하여 `diskus`를 사용.
+* `diskus`의 속도는 충분히 빠름.
+* `diskus` + 수동 인덱싱 방법을 사용함.
+* 24core 기준 30TB disk에 대한 `time diskus` 측정표
+
+||time|
+|:-:|:-:|
+|real|0.696s|
+|user|5.368s|
+|sys|3.990s|
