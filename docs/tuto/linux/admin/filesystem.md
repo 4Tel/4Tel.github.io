@@ -55,13 +55,7 @@ sudo quotatool -s (경로)
 sudo repquota -h (경로)
 ```
 ### 범용 패키지 방법
-* du 명령어를 활용하여 용량 측정.
-* UI, 병렬화, 인덱싱 등 추가 기능 지원
-
-|패키지|UI|병렬화|인덱싱|설치|사용법|
-|:---:|:---:|:---:|:---:|:-|:-|
-|ncdu|TUI|X|O|`brew install ncdu`|`ncdu -o (저장파일명) (경로)`|
-|[dust](https://github.com/bootandy/dust)|CLI|O|X|`brew install dust`|`dust (경로)`|
-|[dua-cli](https://github.com/Byron/dua-cli/)|X|O|X|`brew install dua-cli`|`dua  (경로)`<br/>`dua i (경로)`|
-|[gdu-go](https://github.com/dundee/gdu)|TUI|O|O|`brew install gdu`|`gdu-go (경로)`<br/>`gdu-go -o (저장파일명) (경로)`<br/>`gdu-go -f (저장파일명)`|
-|duc|TUI|O|O|`brew install duc`|`duc (경로)`|
+* 주로 du 명령어를 활용하여 용량 측정.
+* UI, 병렬화, 인덱싱 등 추가 기능 지원.
+* UI 관련: [pdu 유사 프로그램](https://github.com/KSXGitHub/parallel-disk-usage?tab=readme-ov-file#similar-programs) 참고.
+* 성능 관련: [gdu-go Benchmark](https://github.com/dundee/gdu?tab=readme-ov-file#benchmarks) 참고.
