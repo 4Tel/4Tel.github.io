@@ -68,13 +68,17 @@ sudo repquota -h (경로)
 * 그러나 대부분의 범용 패키지 방법은 인덱싱을 지원하지 않음.
 * 인덱싱을 지원하는 경우 maxdepth를 지원하지 않아 모든 내용을 저장하거나, 실행 자체가 느림.
 ##### 결과
-* 기존 becnhmark 결과를 참고하여 `diskus`를 사용.
-* `diskus`의 속도는 충분히 빠름.
+* `pdu`는 충분히 빠르고 인덱싱과 `maxdepth`를 지원하지만, `diskus`에 비해 현저히 느림.
+* `diskus`의 속도는 매우 빠름.
+* 기존 benchmark 결과를 참고하여 `diskus`를 사용.
 * `diskus` + 수동 인덱싱 방법을 사용함.
-* 24core 기준 30TB disk에 대한 `time diskus` 측정표
+* 24core 기준 30TB disk에 대한 `time` 측정표
 
-||time|
-|:-:|:-:|
-|real|0.696s|
-|user|5.368s|
-|sys|3.990s|
+|command|type|time|
+|:-:|:-:|:-:|
+|`diskus`|real|0.696s|
+|`diskus`|user|5.368s|
+|`diskus`|sys|3.990s|
+|`pdu`|real|9.915s|
+|`pdu`|user|33.450s|
+|`pdu`|sys|119.022s|
