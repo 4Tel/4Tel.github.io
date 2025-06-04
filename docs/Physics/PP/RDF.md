@@ -1,7 +1,7 @@
 * Radial Distribution Function
 * 물질의 분포를 시각화 하는 방법.
-* $\large\displaystyle g(r)=\frac{\langle\rho(r)\rangle}{\rho_\text{tot}}=\lim_{dr\rarr 0}\frac{p(r)}{4\pi r^2dr}\cdot\frac{V}{N}$
-* $\large g=1$: 균일 분포 (이상 기체)
+* $\displaystyle g(r)=\frac{\langle\rho(r)\rangle}{\rho_\text{tot}}=\lim_{dr\rarr 0}\frac{p(r)}{4\pi r^2dr}\cdot\frac{V}{N}$
+* $ g=1$: 균일 분포 (이상 기체)
 ## 주의사항
 #### 주의사항 1
 * dr이 작은 경우 RDF 극대화 문제.
