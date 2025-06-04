@@ -20,7 +20,7 @@ sidebar_position: 3
 * 강조 텍스트
 * 탭 기능
 * 라이브 에디터
-* Markdown 기능 [예제](../../tuto/md/md)
+* Markdown 기능 [예제](../../tuto/md/md.md)
 * MD 추가 기능 [예제](<../../Example/Docusaurus MDX>)
 * 기타 등등..
 ### 페이지
