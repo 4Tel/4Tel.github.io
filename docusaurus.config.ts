@@ -1,10 +1,10 @@
 import type * as Preset from '@docusaurus/preset-classic';
-import type {Config, PresetConfig, ThemeConfig} from '@docusaurus/types';
-import type {Navbar} from '@docusaurus/theme-common'
+import type { Config, PresetConfig, ThemeConfig } from '@docusaurus/types';
+import type { Navbar } from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 //
-import {codeTheme, gtag} from './config.config';
+import { codeTheme, gtag } from './config.config';
 
 /** Blog Information. */
 const meta: Config = {
@@ -23,19 +23,19 @@ const meta: Config = {
 }
 
 /* Top Navigation bar information */
-const navigation:Navbar = {
+const navigation: Navbar = {
   title: '4Tel',
   logo: {
     src: 'img/favicon.ico',
   },
   hideOnScroll: true,
-  items: [ 
+  items: [
     {
       label: 'Home',
-      position:'left',
-      to:"/",
+      position: 'left',
+      to: "/",
       items: [
-        {label: 'Blog Code', to:"/Example/Docusaurus MDX" }
+        { label: 'Blog Code', to: "/Example/Docusaurus MDX" }
       ]
     }, {
       label: 'Math',
@@ -47,7 +47,7 @@ const navigation:Navbar = {
       label: 'Physics',
       position: 'left',
       items: [
-        { label:'후처리',to:'/Physics/PP/RDF'}
+        { label: '후처리', to: '/Physics/PP/RDF' }
       ]
     }, {
       label: 'Computer',
@@ -58,11 +58,12 @@ const navigation:Navbar = {
       position: 'left',
       items: [
         { label: "단축키 모음", to: "/tuto/shortcuts" },
-        { label: '코딩 언어', to:'/tuto/lang'},
-        { label: 'MD+Latex',to:'/tuto/md+latex/Markdown'},
+        { label: '코딩 언어', to: '/tuto/lang' },
+        { label: 'Markdown', to: '/tuto/md' },
+        { label: 'TeX', to: '/tuto/tex/' },
         { label: 'vscode', to: '/tuto/vscode' },
-        { label: 'Conda', to: '/tuto/conda'},
-        { label: "Git" , to: "/tuto/git/git" },
+        { label: 'Conda', to: '/tuto/conda' },
+        { label: "Git", to: "/tuto/git/git" },
         { label: 'Linux', to: '/tuto/linux' },
         // { label: 'GDB', to: '/tuto/gdb' },
         // { label: "Quantum Espresso", to: "/tuto/QE" },
@@ -70,17 +71,17 @@ const navigation:Navbar = {
       ]
     }, {
       label: 'Starcraft',
-      position:'left',
+      position: 'left',
       items: [
         { label: "ZCR", to: '/SCR/ZCR' },
-        { label: '오프셋', to:'/SCR/offset' }
+        { label: '오프셋', to: '/SCR/offset' }
       ]
     }, {
       label: 'Books',
       position: 'left',
       items: [
-        { label: '전자기학', to:'/books/electrodynamics'},
-        { label: '선형대수학', to:'/books/linearAlgebra'}
+        { label: '전자기학', to: '/books/electrodynamics' },
+        { label: '선형대수학', to: '/books/linearAlgebra' }
       ]
     }, {
       label: 'Blog',
@@ -91,7 +92,7 @@ const navigation:Navbar = {
 };
 
 /** theme setting */
-const theme:ThemeConfig = {
+const theme: ThemeConfig = {
   image: 'img/favicon.ico', // tab
   colorMode: {
     defaultMode: 'dark',
@@ -99,7 +100,7 @@ const theme:ThemeConfig = {
   }, prism: codeTheme,
   announcementBar: {
     content: "블로그 개설 중. 글 작성 진행 중.",
-    isCloseable:false
+    isCloseable: false
   },
   docs: {
     sidebar: {
@@ -117,7 +118,7 @@ const theme:ThemeConfig = {
 const doc_settings = {
   editUrl: 'https://github.com/4Tel/4Tel.github.io/edit/main/',
   remarkPlugins: [remarkMath],
-  rehypePlugins: [[rehypeKatex,{strict:false}]],
+  rehypePlugins: [[rehypeKatex, { strict: false }]],
   showLastUpdateTime: true,
 }
 const latex_setting = [
@@ -128,7 +129,7 @@ const latex_setting = [
 ]
 
 /* first page */
-const page1:PresetConfig = [
+const page1: PresetConfig = [
   'classic',
   {
     docs: {
@@ -156,11 +157,11 @@ const page1:PresetConfig = [
 const config: Config = {
   ...meta,
   presets: [page1],
-  plugins:[gtag],
+  plugins: [gtag],
   markdown: {
-    mermaid:true,
+    mermaid: true,
   },
-  themes:[
+  themes: [
     '@docusaurus/theme-live-codeblock',
     '@docusaurus/theme-mermaid',
   ],
