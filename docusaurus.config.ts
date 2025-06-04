@@ -81,7 +81,8 @@ const navigation: Navbar = {
       position: 'left',
       items: [
         { label: '전자기학', to: '/books/electrodynamics' },
-        { label: '선형대수학', to: '/books/linearAlgebra' }
+        { label: '선형대수학', to: '/books/linearAlgebra' },
+        { label: '고급수리물리', to: '/books/AdvMathPhys' },
       ]
     }, {
       label: 'Blog',
