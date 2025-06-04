@@ -34,6 +34,10 @@
 
 .katex {
   font-size: 1.5em;
+
+  .mfrac {
+    font-size: 1.4em;
+  }
 }
 
 .error-line {
