@@ -33,7 +33,7 @@ export default function Comment() {
     script.async = true;
 
      containerRef.current.appendChild(script);
-  }, []);
+  }, [colorMode]);
 
   return <div className="comment" ref={containerRef} />;
 }
