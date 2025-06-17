@@ -79,16 +79,7 @@ sudo repquota -h (경로)
   * 수동으로 `max-depth` 구현 시 속도가 `pdu`보다 느려짐.
 * `max-depth` 기능이 필요한 경우 `pdu`를 사용. 그렇지 않은 경우 `diskus`를 사용.
 * 24core 기준 30TB disk에 대한 `time` 측정표.
-
-|command|type|time|
-|:-:|:-:|:-:|
-|`diskus`|real|0.696s|
-|`diskus`|user|5.368s|
-|`diskus`|sys|3.990s|
-|`pdu`|real|9.915s|
-|`pdu`|user|33.450s|
-|`pdu`|sys|119.022s|
 ##### `pdu` 사용 예시
 ```bash
-pdu --max-depth=3 --json-output 
+pdu --min-ratio=0.01 --max-depth=3 --top-down
 ```
