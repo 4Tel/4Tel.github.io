@@ -37,8 +37,8 @@ const navigation: Navbar = {
       position: 'left',
       items: [
         { label: 'Home', to:'/'},
-        { label: '목표', to: '/home/objectives' },
-        { label: 'Blog Code', to: "/Example" }
+        { label: '목표', to: '/home/goal' },
+        { label: 'Blog Code', to: "/home/Example" }
       ]
     }, {
       label: 'Math',
