@@ -50,7 +50,7 @@ const navigation: Navbar = {
       label: 'Physics',
       position: 'left',
       items: [
-        { label: '후처리', to: '/Phy/PP/RDF' }
+        { label: '후처리', to: '/Phys/PP' }
       ]
     }, {
       label: 'Computer',
