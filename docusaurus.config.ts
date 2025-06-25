@@ -35,7 +35,7 @@ const navigation: Navbar = {
       position: 'left',
       to: "/",
       items: [
-        { label: 'Blog Code', to: "/Example/Docusaurus MDX" }
+        { label: 'Blog Code', to: "/Example" }
       ]
     }, {
       label: 'Math',
