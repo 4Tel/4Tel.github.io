@@ -21,7 +21,7 @@ sidebar_position: 3
 * 탭 기능
 * 라이브 에디터
 * Markdown 기능 [예제](/tuto/md/md.md)
-* MD 추가 기능 [예제](<../Examples/Examples.md>)
+* MD 추가 기능 [예제](/home/Examples/Examples.md)
 * 기타 등등..
 ### 페이지
 #### [독립 페이지](https://docusaurus.io/docs/creating-pages)
