@@ -33,8 +33,8 @@ const navigation: Navbar = {
     {
       label: 'Home',
       position: 'left',
-      to: "/",
       items: [
+        { label: 'Home', to:'/'},
         { label: 'Blog Code', to: "/Example" }
       ]
     }, {
@@ -88,7 +88,7 @@ const navigation: Navbar = {
       label: 'Blog',
       position: 'left',
       to: '/blog',
-    }
+    },
   ],
 };
 

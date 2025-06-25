@@ -2,7 +2,8 @@ import {themes} from 'prism-react-renderer';
 export const codeTheme = {
   // support languages: https://prismjs.com/#supported-languages
   // preview: https://highlightjs.org/demo
-  additionalLanguages: ["bash", "fortran"], //,'csharp','fortran'],
+  defaultLanguage: 'bash',
+  additionalLanguages: ["bash", "fortran", "python"],
   /*  
   ● : color-background
   ■ : operator coloring 
