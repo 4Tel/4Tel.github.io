@@ -10,7 +10,8 @@ export const codeTheme = {
   ☆: suggestion
   ★: suggestion (strong)
   */
-  theme: themes.oneDark,
+  theme: themes.oneLight,
+  darkTheme: themes.oneDark,
   // theme: themes.duotoneLight,         // ● blue
   // theme: themes.github,               // blue
   // theme: themes.gruvboxMaterialLight, // ● orange
