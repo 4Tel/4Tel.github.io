@@ -20,6 +20,8 @@ const meta: Config = {
     defaultLocale: 'kr',
     locales: ['kr'],
   },
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 }
 
 /* Top Navigation bar information */
@@ -35,6 +37,7 @@ const navigation: Navbar = {
       position: 'left',
       items: [
         { label: 'Home', to:'/'},
+        { label: '목표', to: '/home/objectives' },
         { label: 'Blog Code', to: "/Example" }
       ]
     }, {
