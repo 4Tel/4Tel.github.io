@@ -44,6 +44,11 @@ export const codeTheme = {
       line: "error-line",
       block: { start: "error-start", end: "error-end" },
     },
+    {
+      className: "warn-line",
+      line: "warn-line",
+      block: { start: "warn-start", end: "warn-end" },
+    },
   ],
 };
 
