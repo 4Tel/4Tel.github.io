@@ -35,8 +35,8 @@ const navigation: Navbar = {
     {
       label: 'Home',
       position: 'left',
+      to: '/',
       items: [
-        { label: 'Home', to:'/home/home'},
         { label: '목표', to: '/home/goal' },
         { label: 'Blog Code', to: "/home/Ex" }
       ]
