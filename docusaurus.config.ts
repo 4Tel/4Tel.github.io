@@ -38,7 +38,7 @@ const navigation: Navbar = {
       items: [
         { label: 'Home', to:'/'},
         { label: '목표', to: '/home/goal' },
-        { label: 'Blog Code', to: "/home/Examples" }
+        { label: 'Blog Code', to: "/home/Ex" }
       ]
     }, {
       label: 'Math',
@@ -50,7 +50,7 @@ const navigation: Navbar = {
       label: 'Physics',
       position: 'left',
       items: [
-        { label: '후처리', to: '/Physics/PP/RDF' }
+        { label: '후처리', to: '/Phy/PP/RDF' }
       ]
     }, {
       label: 'Computer',
