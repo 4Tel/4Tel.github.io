@@ -59,3 +59,12 @@ export const gtag:PluginConfig = [
     trackingID: 'G-KJQBWD08DH',
   }
 ];
+
+export const redirects:PluginConfig = [
+  '@docusaurus/plugin-client-redirects',
+  {
+    redirects:[
+      { from: ['/'], to: '/home/home',}
+    ],
+  },
+];

@@ -4,7 +4,7 @@ import type { Navbar } from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 //
-import { codeTheme, gtag } from './config.config';
+import { codeTheme, gtag, redirects } from './config.config';
 
 /** Blog Information. */
 const meta: Config = {
@@ -36,7 +36,7 @@ const navigation: Navbar = {
       label: 'Home',
       position: 'left',
       items: [
-        { label: 'Home', to:'/'},
+        { label: 'Home', to:'/home/home'},
         { label: '목표', to: '/home/goal' },
         { label: 'Blog Code', to: "/home/Ex" }
       ]
@@ -161,7 +161,7 @@ const page1: PresetConfig = [
 const config: Config = {
   ...meta,
   presets: [page1],
-  plugins: [gtag],
+  plugins: [gtag, redirects],
   markdown: {
     mermaid: true,
   },
