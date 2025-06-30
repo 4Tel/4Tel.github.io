@@ -1,3 +1,5 @@
+import Admonition from '@theme/Admonition';
+
 :::note
 :::
 
@@ -13,3 +15,5 @@ Some **content**
 <Admonition type='danger' title='danger JSX Usage'>
     Some **content**
 </Admonition>
+
+11123
