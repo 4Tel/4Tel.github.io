@@ -40,7 +40,7 @@ const tutoBars: SidebarsConfig = {
   condaBar: [auto("tuto/conda")],
   gitBar: [auto("tuto/git")],
   linuxBar: [auto("tuto/linux")],
-  // gdbBar: [auto("tuto/gdb")],
+  gdbBar: [auto("tuto/gdb")],
   qeBar: [auto("tuto/QE")],
   qepwBar: [auto("tuto/QE-PW")],
 };
