@@ -38,7 +38,7 @@ const navigation: Navbar = {
       to: '/',
       items: [
         { label: '목표', to: '/home/goal' },
-        { label: 'Docusaurus', to: "/home/Ex" }
+        { label: 'Blog Code', to: "/home/Ex" }
       ]
     }, {
       label: 'Math',
