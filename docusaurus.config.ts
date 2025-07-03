@@ -68,17 +68,17 @@ const navigation: Navbar = {
         { label: 'Conda', to: '/tuto/conda' },
         { label: "Git", to: "/tuto/git/git" },
         { label: 'Linux', to: '/tuto/linux' },
-        // { label: 'GDB', to: '/tuto/gdb' },
+        { label: 'GDB', to: '/tuto/gdb' },
         // { label: "Quantum Espresso", to: "/tuto/QE" },
         // { label: "QE-PW", to: "/tuto/QE-PW" },
       ]
-    }, {
-      label: 'Starcraft',
-      position: 'left',
-      items: [
-        { label: "ZCR", to: '/SCR/ZCR' },
-        { label: '오프셋', to: '/SCR/offset' }
-      ]
+    // }, {
+    //   label: 'Starcraft',
+    //   position: 'left',
+    //   items: [
+    //     { label: "ZCR", to: '/SCR/ZCR' },
+    //     { label: '오프셋', to: '/SCR/offset' }
+    //   ]
     }, {
       label: 'Books',
       position: 'left',
@@ -87,10 +87,10 @@ const navigation: Navbar = {
         { label: '선형대수학', to: '/books/linearAlgebra' },
         { label: '고급수리물리', to: '/books/AdvMathPhys' },
       ]
-    }, {
-      label: 'Blog',
-      position: 'left',
-      to: '/blog',
+    // }, {
+    //   label: 'Blog',
+    //   position: 'left',
+    //   to: '/blog',
     },
   ],
 };
