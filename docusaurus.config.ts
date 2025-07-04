@@ -91,6 +91,11 @@ const navigation: Navbar = {
     //   label: 'Blog',
     //   position: 'left',
     //   to: '/blog',
+    }, {
+      href: 'https://github.com/4Tel/4Tel.github.io',
+      position: 'right',
+      className: 'header-github-link',
+      'aria-label': 'GitHub repository',
     },
   ],
 };

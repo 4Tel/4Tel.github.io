@@ -21,13 +21,9 @@ Math | 수학 정리
 Physics | 물리 정리
 Computer | 컴퓨터 과학 정리
 Tutorial | 프로그램 사용 방법
-Starcraft | 스타크래프트 리마스터 (취미활동)
-Books | 기타 미분류 서적 정리.
+Docs | 각종 프로그램 문서 작성
+Books | 미분류 서적 정리
 Blog | 기타 미분류 내용을 블로그 형식으로 정리
-
-:::warn
-문서 작성 툴은 Tutorial 대신 Home으로 분류됩니다.
-:::
 
 ### 블로그 목적
 * [블로그 목적](home/goal/goal.md) 참고
