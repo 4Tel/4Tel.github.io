@@ -16,6 +16,19 @@ uname -i # platform
 ```sh
 uname -r
 ```
+## OS
+* 운영체제 이름
+```sh
+uname -o
+```
+* 배포판 정보
+```sh
+cat /etc/system-release
+```
+* 상세 정보
+```sh
+cat /etc/os-release
+```
 ## glibc
 * local에서는 주로 ldd를 사용.
 * 주요 프로그램은 /bin/ldd를 사용.

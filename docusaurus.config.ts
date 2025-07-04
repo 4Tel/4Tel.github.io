@@ -72,6 +72,11 @@ const navigation: Navbar = {
         // { label: "Quantum Espresso", to: "/tuto/QE" },
         // { label: "QE-PW", to: "/tuto/QE-PW" },
       ]
+    },{
+      label: 'Docs',
+      position: 'left',
+      items: [
+      ]
     // }, {
     //   label: 'Starcraft',
     //   position: 'left',
